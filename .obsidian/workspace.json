@@ -11,15 +11,14 @@
             "id": "5b813ad9a7029aba",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Compte rendus/Juin/18-06-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "18-06-2025"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -157,8 +156,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -166,8 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,6 +180,8 @@
   },
   "active": "5b813ad9a7029aba",
   "lastOpenFiles": [
+    "Compte rendus/Juin/18-06-2025.md",
+    "README.md",
     "IGN-remote/README.md",
     "IGN-remote/Compte rendus/Juin/18-06-2025.md",
     "IGN-remote",
@@ -221,8 +221,6 @@
     "IGN-remote/Modèles/YOLOv10/Dataset/Dataset - CLAHE.md",
     "IGN-remote/Modèles/DeepLabCut/DeepLabCut.md",
     "IGN-remote/Modèles/DeepLabCut/Général/DeepLabCut - Pipelines.canvas",
-    "IGN-remote/Modèles/DeepLabCut/Général/DeepLabCut - Overview.md",
-    "IGN-remote/Compte rendus/Mai/Compte rendu - Mai.md",
     "IGN-remote/Articles/animals-13-01182.pdf",
     "IGN-remote/Articles/agile-giss-5-24-2024.pdf",
     "IGN-remote/Rapport de stage/TemplateWiki.pdf",
