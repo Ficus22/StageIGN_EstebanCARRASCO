@@ -21,8 +21,8 @@ Voici comment appliquer CLAHE à une image avec OpenCV :
 ```python
 import cv2 
 
-# Charger l'image et la convertir en niveaux de gris image = 
-cv2.imread('image.jpg') 
+# Charger l'image et la convertir en niveaux de gris 
+image = cv2.imread('image.jpg') 
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) 
 
 # Créer l'objet CLAHE avec les paramètres souhaités 
