@@ -7,7 +7,9 @@ Fin de période: ""
 ## 18 Juin 2025 - Mercredi
 Détails: [[18-06-2025]]
 
+L'entretient vidéo avec Guillaume a permis de trancher sur les prochaines pistes à suivre : je continu sur le suivie individuel des abeilles en tentant de toujours plus améliorer la qualité des images et dans un second temps, en tâche de fond, je peux me pencher sur la reconnaissance des danse depuis les différentiels (et Unet). YOWO quant à lui est mi de côté car surement trop difficile a utiliser sans une annotation spécifique d'une base d donnée. En effet les données terrain contiennent des trous et sont incomplète pour fabriquer algorithmiquement un dataset de qualité pour un YOWO. 
 
+Aujourd'hui malgré quelques complications quant à la connexion de obsidian, git et au passage de pycharm vers code, un premier test très concluant de CLAHE laisse pressentir de bon résultat sur l'amélioration des images.  
 
 
 ## 17 Juin 2025 - Mardi

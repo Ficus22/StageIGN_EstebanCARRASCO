@@ -74,8 +74,7 @@
               "title": "06-06-2025"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -232,13 +231,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9765a30c07fb1a0a",
+  "active": "421e6560bb49b541",
   "lastOpenFiles": [
-    "Compte rendus/Juin/06-06-2025.md",
     "Compte rendus/Juin/18-06-2025.md",
-    "Modèles/YOWO/YOWO - Overview.md",
     "Compte rendus/Juin/Compte rendu - Juin.md",
     "Modèles/YOLOv10/Dataset/Dataset - CLAHE.md",
+    "Compte rendus/Juin/06-06-2025.md",
+    "Modèles/YOWO/YOWO - Overview.md",
     "Programmes/YOLOv10/Dataset/ImageUpgrader/clahe-originalimage.jpg",
     "Programmes/YOLOv10/Dataset/ImageUpgrader/FM_modified_image3.jpg",
     "Programmes/YOLOv10/Dataset/ImageUpgrader/FM_modified_image1.jpg",
