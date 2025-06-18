@@ -1,0 +1,238 @@
+{
+  "main": {
+    "id": "719cf0cae3d77a06",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccb0efa452594322",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b813ad9a7029aba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Compte rendus/Juin/18-06-2025.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "18-06-2025"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a0c297edd83e1893",
+    "type": "split",
+    "children": [
+      {
+        "id": "76d1f35ea2b5a90d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee78f7bd4fea5708",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a52f8a36528a3972",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9dff1c6ed7c8d0ae",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Signet"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 354.5
+  },
+  "right": {
+    "id": "1d6fffb247bd32c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "0dee7b7acfa8c3f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35dae88c50e5086f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Compte rendus/Mai/Compte rendu - Mai.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Rétrolien pour Compte rendu - Mai"
+            }
+          },
+          {
+            "id": "938dd812960965dd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liens sortants"
+            }
+          },
+          {
+            "id": "ce7b7d0e7d88d0e9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Mots-clés"
+            }
+          },
+          {
+            "id": "e8612ae2851f474e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Article/animals-13-01182.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Plan de animals-13-01182"
+            }
+          },
+          {
+            "id": "7e02ae405e9cdad3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "5b813ad9a7029aba",
+  "lastOpenFiles": [
+    "IGN-remote/README.md",
+    "IGN-remote/Compte rendus/Juin/18-06-2025.md",
+    "IGN-remote",
+    "IGN-remote/Modèles/YOWO/YOWO - Overview.md",
+    "IGN-remote/Modèles/YOLOv10/Dataset/Données/RepérageDesCoordonnées.png",
+    "IGN-remote/Modèles/YOLOv10/Dataset/Données/Record_2022-6-28_13-9-17_csi0.mp4",
+    "IGN-remote/Modèles/YOLOv10/Général/Illustrations/Pasted image 20250523114330.png",
+    "IGN-remote/Modèles/YOLOv10/Général/Communication/YOLOv10 - Post LinkedIn 1.md",
+    "IGN-remote/Modèles/YOLOv10/Général/Communication/Dataset - Message Zulip.md",
+    "IGN-remote/References/Detection_and_tracking_of_honeybees_using_YOLO_and_StrongSORT.pdf",
+    "IGN-remote/Modèles/YOLOv10/Général/Illustrations/ezgif.com-optimize--9-.gif",
+    "IGN-remote/Modèles/YOLOv10/Général/YOLOv10 - Anchor boxes.md",
+    "IGN-remote/Modèles/YOLOv10/HWP/resultwebcam.png",
+    "IGN-remote/Modèles/YOLOv10/HWP/resultimage.png",
+    "IGN-remote/Templates/Sujet - Recherche.md",
+    "IGN-remote/Modèles/YOLOv10/Dataset/Dataset - Adaptation to csv data.md",
+    "IGN-remote/Modèles/YOLOv10/Dataset/Dataset - Data augmentation (physic).md",
+    "IGN-remote/Modèles/YOLOv10/Dataset/Dataset - Format.md",
+    "IGN-remote/Templates/Sujet - Pipelines.canvas",
+    "IGN-remote/Templates/Sujet - Fichier mère.md",
+    "IGN-remote/Templates/Compte rendu - Mois.md",
+    "IGN-remote/References/bioRxiv-DLC_AntennaExemple.pdf",
+    "IGN-remote/References/bioRxiv-DeepWDT.pdf",
+    "IGN-remote/References/Bibliographie.canvas",
+    "IGN-remote/Modèles/YOLOv10/YOLOv10.md",
+    "IGN-remote/Modèles/YOLOv10/To Do List - Générale.md",
+    "IGN-remote/Modèles/YOLOv10/HWP/test.jpg",
+    "IGN-remote/Modèles/YOLOv10/HWP/HelloWorld Project.md",
+    "IGN-remote/Modèles/YOLOv10/Général/YOLOv10 - Pipelines.canvas",
+    "IGN-remote/Modèles/YOLOv10/Général/YOLOv10 - Overview.md",
+    "IGN-remote/Modèles/YOLOv10/Général/YOLOv10 - Fine Tuning.md",
+    "IGN-remote/Modèles/YOLOv10/Général/YOLOv10 - Contouring.md",
+    "IGN-remote/Modèles/YOLOv10/Général/YOLOv10 - Configuration du modèle.md",
+    "IGN-remote/Modèles/YOLOv10/Dataset/Dataset - ROI modifying.md",
+    "IGN-remote/Modèles/YOLOv10/Dataset/Dataset - Data augmentation (virtual).md",
+    "IGN-remote/Modèles/YOLOv10/Dataset/Dataset - Création d'un dataset personnalisé.md",
+    "IGN-remote/Modèles/YOLOv10/Dataset/Dataset - CLAHE.md",
+    "IGN-remote/Modèles/DeepLabCut/DeepLabCut.md",
+    "IGN-remote/Modèles/DeepLabCut/Général/DeepLabCut - Pipelines.canvas",
+    "IGN-remote/Modèles/DeepLabCut/Général/DeepLabCut - Overview.md",
+    "IGN-remote/Compte rendus/Mai/Compte rendu - Mai.md",
+    "IGN-remote/Articles/animals-13-01182.pdf",
+    "IGN-remote/Articles/agile-giss-5-24-2024.pdf",
+    "IGN-remote/Rapport de stage/TemplateWiki.pdf",
+    "Rapport de stage/Rapport_de_stage_A4.pdf",
+    "IGN-remote/Rapport de stage",
+    "IGN-remote/Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu2/up0000035790.jpg",
+    "IGN-remote/Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu2/up0000034860.jpg",
+    "IGN-remote/Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu2/up0000034740.jpg",
+    "IGN-remote/Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu2/up0000034500.jpg",
+    "DeepLabCut/Général/DeepLabCut - Pipelines.canvas",
+    "YOLOv10/References/Bibliographie.canvas"
+  ]
+}

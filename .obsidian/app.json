@@ -1,0 +1,16 @@
+{
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "spellcheckDictionary": [
+    "surajustement",
+    "surajustement",
+    "YOLO",
+    "Ultralytics",
+    "YOLO",
+    "dataset",
+    "frame",
+    "anchor"
+  ],
+  "attachmentFolderPath": "YOLOv10/Général/Illustrations",
+  "propertiesInDocument": "visible"
+}
