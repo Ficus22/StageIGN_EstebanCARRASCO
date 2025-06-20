@@ -9,7 +9,7 @@ aliases:
 CLAHE (Contrast Limited Adaptive Histogram Equalization) est une méthode avancée pour améliorer le contraste des images, particulièrement efficace lorsque l’image présente des zones d’éclairage inégal. Contrairement à l’égalisation d’histogramme globale, qui applique la même transformation à toute l’image, CLAHE divise l’image en petites régions (appelées _tiles_) et ajuste le contraste localement dans chacune d’elles. Cela permet d’améliorer la visibilité des détails dans les zones sombres comme dans les zones claires, tout en limitant l’amplification du bruit grâce au paramètre de _clip limit_.
 
 ## Fonctionnement de CLAHE
-
+zation) est une méthode avancée pour améliorer le contraste des images, particulièr
 - **Division en tiles** : L’image est découpée en une grille de régions rectangulaires (par exemple, 8x8).
 - **Égalisation locale** : Un histogramme est calculé pour chaque tile, puis une égalisation locale est appliquée.
 - **Limitation du contraste** (_clip limit_) : Pour éviter d’amplifier le bruit dans les zones homogènes, la contribution maximale d’un bin de l’histogramme est limitée. L’excès est redistribué.

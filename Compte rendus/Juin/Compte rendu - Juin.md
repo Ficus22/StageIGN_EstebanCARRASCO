@@ -4,6 +4,12 @@ tags:
 Début période: 2025-06-02
 Fin de période: ""
 ---
+## 20 Juin 2025 - Vendredi
+Détails: [[20-06-2025]]
+
+La réunion de mi-stage a été réalisé avec Mme Frankart et fut très positive. Aujourd'hui j'ai avancé sur l'amélioration des image modifiées avec CLAHE. Grâce à un sondage sur zulip j'ai pu tranché quand à la transformation la plus efficace (CLAHE + sat + sharp). 
+
+
 ## 18 Juin 2025 - Mercredi
 Détails: [[18-06-2025]]
 
