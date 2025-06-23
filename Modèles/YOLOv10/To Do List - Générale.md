@@ -30,7 +30,7 @@ aliases:
 
 ## Create our own dataset
 - [x] Trouver une bibliothèque pour récupérer la frame d'une vidéo
-- [ ] créer des vidéo à partir des centres des abeilles (vidéo des trajectoires) -> trouver des lib python qui fabriquent des vidéos à partir d'images
+- [ ] ~~créer des vidéo à partir des centres des abeilles (vidéo des trajectoires) -> trouver des lib python qui fabriquent des vidéos à partir d'images~~
 
 ---
 # DeepLabCut

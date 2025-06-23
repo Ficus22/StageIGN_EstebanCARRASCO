@@ -85,4 +85,5 @@ def video_to_frames(video_path, frames_dir, overwrite=False, every=1):
 
 if __name__ == '__main__':
 
-    video_to_frames(video_path='Record_2022-6-28_13-9-17_csi0.mp4', frames_dir='test_frames', overwrite=False, every=30)
+    print("hello world")
+    #video_to_frames(video_path='Record_2022-6-28_13-9-17_csi0.mp4', frames_dir='test_frames', overwrite=False, every=30)

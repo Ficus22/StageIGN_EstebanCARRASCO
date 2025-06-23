@@ -4,6 +4,11 @@ tags:
 Début période: 2025-06-02
 Fin de période: ""
 ---
+## 23 Juin 2025 - Lundi
+Détails: [[23-06-2025]]
+
+En voulant achever l'annotation des fichiers je me suis rendu compte que nous avions un problème concernant les zones illisibles sur robot flow (zones cramées). Effectivement même si les abeilles dans ces zones sont méconnaissables, lorsque le changement d'image aura lieu, elles apparaîtront et ne seront pas annoté. Pour régler cela, j'ai récupérer le code source des annotations réalisées et à l'aide d'un script et je l'ai transformé en fichier d'annotation. Pour ensuite les re-uploader sur robot flow et finaliser leur annotation. Il ne reste plus qu'a vérifier que chaque image est complètement annotée. 
+
 ## 20 Juin 2025 - Vendredi
 Détails: [[20-06-2025]]
 

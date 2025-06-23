@@ -36,9 +36,24 @@
               "icon": "lucide-file",
               "title": "Dataset - ROI modifying"
             }
+          },
+          {
+            "id": "155adf45e2bd68e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modèles/YOLOv10/Dataset/Dataset - Format.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Dataset - Format"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "5ddfca771b069e1a",
@@ -72,6 +87,21 @@
               },
               "icon": "lucide-file",
               "title": "Compte rendu - Juin"
+            }
+          },
+          {
+            "id": "a410de9e74c2ee92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Compte rendus/Juin/23-06-2025.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "23-06-2025"
             }
           }
         ],
@@ -234,35 +264,44 @@
   },
   "active": "bb734e532c9fa991",
   "lastOpenFiles": [
+    "Compte rendus/Juin/23-06-2025.md",
+    "Compte rendus/Juin/Compte rendu - Juin.md",
+    "Modèles/YOLOv10/Dataset/Dataset - Format.md",
+    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/labels/up0000025680_2_2.txt",
+    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/images/up0000025680_2_2.jpg",
+    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/labels/up0000025680_2_1.txt",
+    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/images/up0000025680_2_1.jpg",
+    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/labels/up0000025680_2_0.txt",
+    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/images/up0000025680_2_0.jpg",
+    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/labels/up0000025680_1_2.txt",
+    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/images/up0000025680_1_2.jpg",
+    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/labels/up0000025680_1_1.txt",
+    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/images/up0000025680_1_1.jpg",
+    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/labels/up0000025680_1_0.txt",
+    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/images/up0000025680_1_0.jpg",
+    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/labels/up0000025680_0_2.txt",
+    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/images/up0000025680_0_2.jpg",
+    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/labels/up0000025680_0_1.txt",
+    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/images/up0000025680_0_1.jpg",
+    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/labels/up0000025680_0_0.txt",
+    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/images/up0000025680_0_0.jpg",
+    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/labels/up0000014550_2_2.txt",
+    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/images/up0000014550_2_2.jpg",
+    "Programmes/venv/lib/python3.12/site-packages/supervision-0.25.1.dist-info/LICENSE.md",
+    "Programmes/venv/lib/python3.12/site-packages/idna-3.7.dist-info/LICENSE.md",
+    "Programmes/venv/lib/python3.12/site-packages/seaborn-0.13.2.dist-info/LICENSE.md",
+    "Programmes/venv/lib/python3.12/site-packages/torchgen/packaged/autograd/README.md",
+    "Programmes/venv/lib/python3.12/site-packages/idna-3.10.dist-info/LICENSE.md",
+    "Programmes/venv/lib/python3.12/site-packages/scipy/fft/_pocketfft/LICENSE.md",
+    "Modèles/YOLOv10/To Do List - Générale.md",
     "Compte rendus/Juin/20-06-2025.md",
     "Modèles/YOLOv10/Dataset/Dataset - ROI modifying.md",
     "Compte rendus/Juin/18-06-2025.md",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/clahe+sharp2-originalimage.jpg",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/clahe+sat-originalimage.jpg",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/clahe+sharp-originalimage.jpg",
-    "Programmes/venv/lib/python3.12/site-packages/pytest_shutil/__pycache__/cmdline.cpython-312-pytest-8.4.1.pyc",
-    "Programmes/venv/lib/python3.12/site-packages/pytest_shutil/__pycache__/workspace.cpython-312-pytest-8.4.1.pyc",
-    "Programmes/venv/lib/python3.12/site-packages/pytest_shutil/__pycache__/__init__.cpython-312-pytest-8.4.1.pyc",
     "Compte rendus/Juin/17-06-2025.md",
     "Compte rendus/Juin/06-06-2025.md",
     "Compte rendus/Juin/04-06-2025.md",
     "Modèles/YOLOv10/Dataset/Dataset - CLAHE.md",
-    "Compte rendus/Juin/Compte rendu - Juin.md",
     "Modèles/YOWO/YOWO - Overview.md",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/clahe-originalimage.jpg",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/FM_modified_image3.jpg",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/FM_modified_image1.jpg",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/FM_modified_image_roi1.jpg",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/FM_orginalimage.jpg",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/FM_ROI.png",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/FM_FM_essaim-sur-cadre.jpg",
-    "Programmes/venv/lib/python3.12/site-packages/PIL/__pycache__/report.cpython-312.pyc",
-    "Programmes/venv/lib/python3.12/site-packages/PIL/__pycache__/features.cpython-312.pyc",
-    "Programmes/venv/lib/python3.12/site-packages/PIL/__pycache__/_version.cpython-312.pyc",
-    "Programmes/venv/lib/python3.12/site-packages/PIL/__pycache__/_util.cpython-312.pyc",
-    "Programmes/venv/lib/python3.12/site-packages/PIL/__pycache__/_typing.cpython-312.pyc",
-    "Programmes/venv/lib/python3.12/site-packages/PIL/__pycache__/_tkinter_finder.cpython-312.pyc",
-    "Programmes/venv/lib/python3.12/site-packages/PIL/__pycache__/_deprecate.cpython-312.pyc",
     "Programmes/venv/lib/python3.12/site-packages/numpy/random/LICENSE.md",
     "Programmes/venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/extensions/README.md",
     "Programmes/venv/lib/python3.12/site-packages/pyzmq-27.0.0.dist-info/licenses/LICENSE.md",
@@ -271,16 +310,7 @@
     "IGN-remote/README.md",
     "IGN-remote/Compte rendus/Juin/18-06-2025.md",
     "IGN-remote/Modèles/YOWO/YOWO - Overview.md",
-    "IGN-remote/Modèles/YOLOv10/Général/Communication/YOLOv10 - Post LinkedIn 1.md",
-    "IGN-remote/Modèles/YOLOv10/Général/Communication/Dataset - Message Zulip.md",
-    "IGN-remote/Modèles/YOLOv10/Général/YOLOv10 - Anchor boxes.md",
-    "IGN-remote/Templates/Sujet - Recherche.md",
-    "IGN-remote/Modèles/YOLOv10/Dataset/Dataset - Adaptation to csv data.md",
-    "IGN-remote/Modèles/YOLOv10/Dataset/Dataset - Data augmentation (physic).md",
-    "IGN-remote/Modèles/YOLOv10/Dataset/Dataset - Format.md",
     "IGN-remote/Templates/Sujet - Pipelines.canvas",
-    "IGN-remote/Templates/Sujet - Fichier mère.md",
-    "IGN-remote/Templates/Compte rendu - Mois.md",
     "IGN-remote/References/Bibliographie.canvas",
     "IGN-remote/Modèles/YOLOv10/Général/YOLOv10 - Pipelines.canvas",
     "IGN-remote/Modèles/DeepLabCut/Général/DeepLabCut - Pipelines.canvas",

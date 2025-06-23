@@ -1,0 +1,745 @@
+{
+    "boxes": [
+        {
+            "id": "1",
+            "label": "bee",
+            "x": "505.36",
+            "y": "254.57",
+            "width": "27.10",
+            "height": "35.26",
+            "confidence": null
+        },
+        {
+            "id": "2",
+            "label": "bee",
+            "x": "589.17",
+            "y": "216.44",
+            "width": "20.07",
+            "height": "33.23",
+            "confidence": null
+        },
+        {
+            "id": "3",
+            "label": "bee",
+            "x": "539.49",
+            "y": "188.84",
+            "width": "27.10",
+            "height": "32.01",
+            "confidence": null
+        },
+        {
+            "id": "4",
+            "label": "bee",
+            "x": "506.36",
+            "y": "185.34",
+            "width": "29.11",
+            "height": "31.20",
+            "confidence": null
+        },
+        {
+            "id": "5",
+            "label": "bee",
+            "x": "501.35",
+            "y": "144.69",
+            "width": "35.13",
+            "height": "24.01",
+            "confidence": null
+        },
+        {
+            "id": "6",
+            "label": "bee",
+            "x": "467.72",
+            "y": "189.35",
+            "width": "30.11",
+            "height": "25.19",
+            "confidence": null
+        },
+        {
+            "id": "7",
+            "label": "bee",
+            "x": "436.11",
+            "y": "216.94",
+            "width": "29.11",
+            "height": "23.96",
+            "confidence": null
+        },
+        {
+            "id": "8",
+            "label": "bee",
+            "x": "458.69",
+            "y": "268.11",
+            "width": "16.06",
+            "height": "35.97",
+            "confidence": null
+        },
+        {
+            "id": "9",
+            "label": "bee",
+            "x": "491.81",
+            "y": "296.71",
+            "width": "38.14",
+            "height": "25.25",
+            "confidence": null
+        },
+        {
+            "id": "A",
+            "label": "bee",
+            "x": "536.48",
+            "y": "304.74",
+            "width": "35.13",
+            "height": "25.25",
+            "confidence": null
+        },
+        {
+            "id": "B",
+            "label": "bee",
+            "x": "641.36",
+            "y": "259.09",
+            "width": "36.13",
+            "height": "28.24",
+            "confidence": null
+        },
+        {
+            "id": "C",
+            "label": "bee",
+            "x": "606.23",
+            "y": "260.59",
+            "width": "26.10",
+            "height": "19.21",
+            "confidence": null
+        },
+        {
+            "id": "D",
+            "label": "bee",
+            "x": "578.13",
+            "y": "250.55",
+            "width": "24.09",
+            "height": "14.91",
+            "confidence": null
+        },
+        {
+            "id": "E",
+            "label": "bee",
+            "x": "589.17",
+            "y": "279.66",
+            "width": "34.13",
+            "height": "21.23",
+            "confidence": null
+        },
+        {
+            "id": "F",
+            "label": "bee",
+            "x": "612.76",
+            "y": "298.22",
+            "width": "39.14",
+            "height": "22.24",
+            "confidence": null
+        },
+        {
+            "id": "G",
+            "label": "bee",
+            "x": "699.58",
+            "y": "318.29",
+            "width": "24.09",
+            "height": "28.27",
+            "confidence": null
+        },
+        {
+            "id": "H",
+            "label": "bee",
+            "x": "690.54",
+            "y": "339.86",
+            "width": "26.10",
+            "height": "29.29",
+            "confidence": null
+        },
+        {
+            "id": "I",
+            "label": "bee",
+            "x": "666.45",
+            "y": "325.81",
+            "width": "20.07",
+            "height": "33.29",
+            "confidence": null
+        },
+        {
+            "id": "J",
+            "label": "bee",
+            "x": "646.88",
+            "y": "330.83",
+            "width": "19.07",
+            "height": "35.30",
+            "confidence": null
+        },
+        {
+            "id": "K",
+            "label": "bee",
+            "x": "618.78",
+            "y": "326.31",
+            "width": "27.10",
+            "height": "25.91",
+            "confidence": null
+        },
+        {
+            "id": "L",
+            "label": "bee",
+            "x": "597.20",
+            "y": "358.92",
+            "width": "40.15",
+            "height": "21.27",
+            "confidence": null
+        },
+        {
+            "id": "M",
+            "label": "bee",
+            "x": "555.55",
+            "y": "344.37",
+            "width": "17.06",
+            "height": "33.92",
+            "confidence": null
+        },
+        {
+            "id": "N",
+            "label": "bee",
+            "x": "489.80",
+            "y": "336.85",
+            "width": "36.13",
+            "height": "23.27",
+            "confidence": null
+        },
+        {
+            "id": "O",
+            "label": "bee",
+            "x": "430.08",
+            "y": "284.17",
+            "width": "31.11",
+            "height": "38.29",
+            "confidence": null
+        },
+        {
+            "id": "P",
+            "label": "bee",
+            "x": "425.06",
+            "y": "321.30",
+            "width": "37.14",
+            "height": "32.29",
+            "confidence": null
+        },
+        {
+            "id": "Q",
+            "label": "bee",
+            "x": "516.90",
+            "y": "379.99",
+            "width": "26.10",
+            "height": "34.91",
+            "confidence": null
+        },
+        {
+            "id": "R",
+            "label": "bee",
+            "x": "537.98",
+            "y": "366.44",
+            "width": "22.08",
+            "height": "35.92",
+            "confidence": null
+        },
+        {
+            "id": "S",
+            "label": "bee",
+            "x": "490.31",
+            "y": "392.53",
+            "width": "29.11",
+            "height": "37.91",
+            "confidence": null
+        },
+        {
+            "id": "T",
+            "label": "bee",
+            "x": "446.14",
+            "y": "397.05",
+            "width": "31.11",
+            "height": "30.88",
+            "confidence": null
+        },
+        {
+            "id": "U",
+            "label": "bee",
+            "x": "425.06",
+            "y": "374.48",
+            "width": "39.14",
+            "height": "26.30",
+            "confidence": null
+        },
+        {
+            "id": "V",
+            "label": "bee",
+            "x": "411.52",
+            "y": "344.88",
+            "width": "30.11",
+            "height": "27.28",
+            "confidence": null
+        },
+        {
+            "id": "W",
+            "label": "bee",
+            "x": "600.21",
+            "y": "408.09",
+            "width": "30.11",
+            "height": "35.35",
+            "confidence": null
+        },
+        {
+            "id": "X",
+            "label": "bee",
+            "x": "634.84",
+            "y": "383.51",
+            "width": "25.09",
+            "height": "28.31",
+            "confidence": null
+        },
+        {
+            "id": "Y",
+            "label": "bee",
+            "x": "654.91",
+            "y": "402.57",
+            "width": "29.11",
+            "height": "18.29",
+            "confidence": null
+        },
+        {
+            "id": "Z",
+            "label": "bee",
+            "x": "681.51",
+            "y": "376.49",
+            "width": "20.07",
+            "height": "32.32",
+            "confidence": null
+        },
+        {
+            "id": "a",
+            "label": "bee",
+            "x": "650.39",
+            "y": "433.18",
+            "width": "22.08",
+            "height": "37.37",
+            "confidence": null
+        },
+        {
+            "id": "b",
+            "label": "bee",
+            "x": "697.57",
+            "y": "433.68",
+            "width": "24.09",
+            "height": "34.36",
+            "confidence": null
+        },
+        {
+            "id": "c",
+            "label": "bee",
+            "x": "673.98",
+            "y": "432.18",
+            "width": "19.07",
+            "height": "41.38",
+            "confidence": null
+        },
+        {
+            "id": "d",
+            "label": "bee",
+            "x": "604.73",
+            "y": "469.30",
+            "width": "35.13",
+            "height": "29.36",
+            "confidence": null
+        },
+        {
+            "id": "e",
+            "label": "bee",
+            "x": "618.78",
+            "y": "444.21",
+            "width": "29.11",
+            "height": "21.32",
+            "confidence": null
+        },
+        {
+            "id": "f",
+            "label": "bee",
+            "x": "375.88",
+            "y": "326.82",
+            "width": "27.10",
+            "height": "21.25",
+            "confidence": null
+        },
+        {
+            "id": "g",
+            "label": "bee",
+            "x": "303.62",
+            "y": "261.09",
+            "width": "35.13",
+            "height": "31.97",
+            "confidence": null
+        },
+        {
+            "id": "h",
+            "label": "bee",
+            "x": "311.15",
+            "y": "338.86",
+            "width": "38.14",
+            "height": "31.29",
+            "confidence": null
+        },
+        {
+            "id": "i",
+            "label": "bee",
+            "x": "317.67",
+            "y": "315.27",
+            "width": "33.12",
+            "height": "29.93",
+            "confidence": null
+        },
+        {
+            "id": "j",
+            "label": "bee",
+            "x": "366.85",
+            "y": "372.47",
+            "width": "41.15",
+            "height": "22.28",
+            "confidence": null
+        },
+        {
+            "id": "k",
+            "label": "bee",
+            "x": "764.31",
+            "y": "377.99",
+            "width": "41.15",
+            "height": "17.27",
+            "confidence": null
+        },
+        {
+            "id": "l",
+            "label": "bee",
+            "x": "772.34",
+            "y": "349.39",
+            "width": "33.12",
+            "height": "24.28",
+            "confidence": null
+        },
+        {
+            "id": "m",
+            "label": "bee",
+            "x": "735.71",
+            "y": "367.45",
+            "width": "32.12",
+            "height": "27.89",
+            "confidence": null
+        },
+        {
+            "id": "n",
+            "label": "bee",
+            "x": "736.21",
+            "y": "321.80",
+            "width": "23.08",
+            "height": "31.28",
+            "confidence": null
+        },
+        {
+            "id": "o",
+            "label": "bee",
+            "x": "732.70",
+            "y": "406.59",
+            "width": "22.08",
+            "height": "36.35",
+            "confidence": null
+        },
+        {
+            "id": "p",
+            "label": "bee",
+            "x": "776.36",
+            "y": "410.10",
+            "width": "23.08",
+            "height": "35.35",
+            "confidence": null
+        },
+        {
+            "id": "q",
+            "label": "bee",
+            "x": "737.21",
+            "y": "464.28",
+            "width": "27.10",
+            "height": "27.35",
+            "confidence": null
+        },
+        {
+            "id": "r",
+            "label": "bee",
+            "x": "729.69",
+            "y": "437.19",
+            "width": "34.13",
+            "height": "23.33",
+            "confidence": null
+        },
+        {
+            "id": "s",
+            "label": "bee",
+            "x": "782.88",
+            "y": "474.32",
+            "width": "38.14",
+            "height": "27.36",
+            "confidence": null
+        },
+        {
+            "id": "t",
+            "label": "bee",
+            "x": "821.52",
+            "y": "466.29",
+            "width": "21.08",
+            "height": "37.39",
+            "confidence": null
+        },
+        {
+            "id": "u",
+            "label": "bee",
+            "x": "822.53",
+            "y": "384.00",
+            "width": "29.11",
+            "height": "26.88",
+            "confidence": null
+        },
+        {
+            "id": "v",
+            "label": "bee",
+            "x": "819.52",
+            "y": "353.41",
+            "width": "23.08",
+            "height": "34.31",
+            "confidence": null
+        },
+        {
+            "id": "w",
+            "label": "bee",
+            "x": "802.45",
+            "y": "328.32",
+            "width": "21.08",
+            "height": "32.29",
+            "confidence": null
+        },
+        {
+            "id": "x",
+            "label": "bee",
+            "x": "751.27",
+            "y": "276.14",
+            "width": "23.08",
+            "height": "35.97",
+            "confidence": null
+        },
+        {
+            "id": "y",
+            "label": "bee",
+            "x": "722.66",
+            "y": "245.54",
+            "width": "26.10",
+            "height": "39.27",
+            "confidence": null
+        },
+        {
+            "id": "z",
+            "label": "bee",
+            "x": "686.03",
+            "y": "216.94",
+            "width": "25.09",
+            "height": "32.23",
+            "confidence": null
+        },
+        {
+            "id": "11",
+            "label": "bee",
+            "x": "655.91",
+            "y": "201.39",
+            "width": "35.13",
+            "height": "29.21",
+            "confidence": null
+        },
+        {
+            "id": "12",
+            "label": "bee",
+            "x": "627.81",
+            "y": "153.23",
+            "width": "31.11",
+            "height": "37.21",
+            "confidence": null
+        },
+        {
+            "id": "13",
+            "label": "bee",
+            "x": "564.08",
+            "y": "151.73",
+            "width": "28.10",
+            "height": "42.22",
+            "confidence": null
+        },
+        {
+            "id": "14",
+            "label": "bee",
+            "x": "589.17",
+            "y": "168.78",
+            "width": "28.10",
+            "height": "40.23",
+            "confidence": null
+        },
+        {
+            "id": "15",
+            "label": "bee",
+            "x": "646.38",
+            "y": "174.80",
+            "width": "48.18",
+            "height": "20.16",
+            "confidence": null
+        },
+        {
+            "id": "16",
+            "label": "bee",
+            "x": "721.66",
+            "y": "187.34",
+            "width": "36.13",
+            "height": "27.19",
+            "confidence": null
+        },
+        {
+            "id": "17",
+            "label": "bee",
+            "x": "750.26",
+            "y": "216.95",
+            "width": "25.09",
+            "height": "40.25",
+            "confidence": null
+        },
+        {
+            "id": "18",
+            "label": "bee",
+            "x": "790.91",
+            "y": "256.58",
+            "width": "34.13",
+            "height": "39.27",
+            "confidence": null
+        },
+        {
+            "id": "19",
+            "label": "bee",
+            "x": "818.51",
+            "y": "229.49",
+            "width": "19.07",
+            "height": "45.28",
+            "confidence": null
+        },
+        {
+            "id": "1A",
+            "label": "bee",
+            "x": "849.63",
+            "y": "375.98",
+            "width": "29.11",
+            "height": "29.31",
+            "confidence": null
+        },
+        {
+            "id": "1B",
+            "label": "bee",
+            "x": "863.18",
+            "y": "362.94",
+            "width": "30.11",
+            "height": "29.30",
+            "confidence": null
+        },
+        {
+            "id": "1C",
+            "label": "bee",
+            "x": "884.76",
+            "y": "312.26",
+            "width": "41.15",
+            "height": "23.91",
+            "confidence": null
+        },
+        {
+            "id": "1D",
+            "label": "bee",
+            "x": "892.79",
+            "y": "284.67",
+            "width": "39.14",
+            "height": "27.25",
+            "confidence": null
+        },
+        {
+            "id": "1E",
+            "label": "bee",
+            "x": "969.57",
+            "y": "316.28",
+            "width": "32.12",
+            "height": "22.25",
+            "confidence": null
+        },
+        {
+            "id": "1F",
+            "label": "bee",
+            "x": "899.31",
+            "y": "359.42",
+            "width": "26.10",
+            "height": "27.89",
+            "confidence": null
+        },
+        {
+            "id": "1G",
+            "label": "bee",
+            "x": "905.33",
+            "y": "333.34",
+            "width": "24.09",
+            "height": "20.25",
+            "confidence": null
+        },
+        {
+            "id": "1H",
+            "label": "bee",
+            "x": "929.92",
+            "y": "319.29",
+            "width": "29.11",
+            "height": "28.27",
+            "confidence": null
+        },
+        {
+            "id": "1I",
+            "label": "bee",
+            "x": "848.12",
+            "y": "440.20",
+            "width": "24.09",
+            "height": "29.35",
+            "confidence": null
+        },
+        {
+            "id": "1J",
+            "label": "bee",
+            "x": "890.78",
+            "y": "410.10",
+            "width": "21.08",
+            "height": "31.34",
+            "confidence": null
+        },
+        {
+            "id": "1K",
+            "label": "bee",
+            "x": "314.66",
+            "y": "373.97",
+            "width": "39.14",
+            "height": "32.90",
+            "confidence": null
+        },
+        {
+            "id": "1L",
+            "label": "bee",
+            "x": "669.97",
+            "y": "493.87",
+            "width": "25.09",
+            "height": "31.83",
+            "confidence": null
+        }
+    ],
+    "height": 720,
+    "key": "up0000015960.jpg",
+    "width": 1280
+}
