@@ -69,5 +69,5 @@ for img_name in os.listdir(input_images):
 Ce script lit chaque image et annotation, applique des augmentations (ici flip et rotation), et sauvegarde chaque variante avec son annotation adaptée. Les coordonnées des bounding boxes sont automatiquement recalculées pour rester cohérentes avec l’image transformée.
 
 > [!tip]
-> ON peut modifier les transformations et le nombre de variantes selon nos besoins.
+> On peut modifier les transformations et le nombre de variantes selon nos besoins.
 
