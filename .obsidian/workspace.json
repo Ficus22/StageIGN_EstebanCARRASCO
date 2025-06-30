@@ -65,13 +65,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Compte rendus/Juin/20-06-2025.md",
+                "file": "Compte rendus/Juin/27-06-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "20-06-2025"
+              "title": "27-06-2025"
             }
           },
           {
@@ -80,38 +80,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Compte rendus/Juin/24-06-2025.md",
+                "file": "Compte rendus/Juin/Compte rendu - Juin.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "24-06-2025"
+              "title": "Compte rendu - Juin"
             }
           },
           {
             "id": "a410de9e74c2ee92",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Compte rendus/Juin/23-06-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Rapport de stage/TemplateWiki.pdf"
               },
-              "icon": "lucide-file",
-              "title": "23-06-2025"
-            }
-          },
-          {
-            "id": "1d37e69cb185fad8",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file-text",
+              "title": "TemplateWiki"
             }
           }
         ],
@@ -274,35 +261,43 @@
   },
   "active": "bb734e532c9fa991",
   "lastOpenFiles": [
-    "Modèles/YOLOv10/Dataset/Dataset - Data augmentation (physic).md",
-    "Compte rendus/Juin/23-06-2025.md",
-    "Compte rendus/Juin/20-06-2025.md",
-    "Programmes/YOLOv10/Dataset/DataAugmentor/Augmentor.py",
-    "Programmes/YOLOv10/Dataset/DataAugmentor",
-    "Modèles/YOLOv10/Dataset/Dataset - Data augmentation (virtual).md",
+    "Compte rendus/Juin/27-06-2025.md",
     "Compte rendus/Juin/24-06-2025.md",
-    "Programmes/YOLOv10/Dataset/YOLOTrain.ipynb",
+    "Compte rendus/Juin/Compte rendu - Juin.md",
+    "Compte rendus/Juin/30-06-2025.md",
+    "Programmes/YOLOv10/Calculateur/YOLODataImport.py",
+    "Programmes/YOLOv10/Calculateur",
+    "Programmes/YOLOv10/Dataset/Calculateur",
+    "Programmes/YOLOv10/Dataset/Calcultauer",
+    "Programmes/YOLOv10/Dataset/YOLOfromRobotflow.ipynb",
+    "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/labels/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-8_jpg.rf.df5fdb3e2de4b4881ea529c741f9a8c7.txt",
+    "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/labels/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-7_jpg.rf.7737329aff955231d5117053cb492b58.txt",
+    "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/labels/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-6_jpg.rf.ceabd7a6cd6b0ec92dec4c9b284f02d0.txt",
+    "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/labels/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-5_jpg.rf.a92732540de1d6a7ca5a51f65e35f0a9.txt",
+    "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/labels/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-4_jpg.rf.051c4c9c70e8e5ad97a4fbc92f6c1d5b.txt",
+    "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/images/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-8_jpg.rf.df5fdb3e2de4b4881ea529c741f9a8c7.jpg",
+    "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/images/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-7_jpg.rf.7737329aff955231d5117053cb492b58.jpg",
+    "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/images/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-6_jpg.rf.ceabd7a6cd6b0ec92dec4c9b284f02d0.jpg",
+    "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/images/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-5_jpg.rf.a92732540de1d6a7ca5a51f65e35f0a9.jpg",
+    "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/images/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-4_jpg.rf.051c4c9c70e8e5ad97a4fbc92f6c1d5b.jpg",
+    "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/images/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-3_jpg.rf.433cea5138d7a73d9862da02058cf8f0.jpg",
+    "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/images/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-1_jpg.rf.6d6a15427c3ae149198cc1af767c7ff5.jpg",
+    "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/images/workers1_jpg.rf.311a9bd5a990d54cc2f18d6c5c806a6e.jpg",
+    "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/images/the-queen-bee-swarm-selective-focus-2B6MDAA_jpg.rf.9a76bdf751a1c6ad6c9d0f5f36f9af6e.jpg",
+    "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/images/swarm-bees_jpg.rf.f63f63df5fc7c761da71614e004e2746.jpg",
+    "Programmes/venv/lib/python3.12/site-packages/jupyter_server/i18n/README.md",
+    "Programmes/venv/lib/python3.12/site-packages/nbconvert/templates/skeleton/README.md",
+    "Programmes/venv/lib/python3.12/site-packages/nbconvert/templates/README.md",
+    "Programmes/venv/lib/python3.12/site-packages/httpx-0.28.1.dist-info/licenses/LICENSE.md",
+    "Programmes/venv/lib/python3.12/site-packages/httpcore-1.0.9.dist-info/licenses/LICENSE.md",
+    "Programmes/venv/lib/python3.12/site-packages/soupsieve-2.7.dist-info/licenses/LICENSE.md",
+    "Compte rendus/Juin/20-06-2025.md",
+    "Compte rendus/Juin/23-06-2025.md",
+    "Modèles/YOLOv10/Dataset/Dataset - Data augmentation (physic).md",
+    "Modèles/YOLOv10/Dataset/Dataset - Data augmentation (virtual).md",
     "Modèles/YOLOv10/Dataset/Dataset - Format.md",
     "Modèles/YOLOv10/YOLOv10.md",
     "Modèles/YOWO/YOWO - Overview.md",
-    "Compte rendus/Juin/Compte rendu - Juin.md",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/labels/up0000025680_2_2.txt",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/images/up0000025680_2_2.jpg",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/labels/up0000025680_2_1.txt",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/images/up0000025680_2_1.jpg",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/labels/up0000025680_2_0.txt",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/images/up0000025680_2_0.jpg",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/labels/up0000025680_1_2.txt",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/images/up0000025680_1_2.jpg",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/labels/up0000025680_1_1.txt",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/images/up0000025680_1_1.jpg",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/labels/up0000025680_1_0.txt",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/images/up0000025680_1_0.jpg",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/labels/up0000025680_0_2.txt",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/images/up0000025680_0_2.jpg",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/images/up0000025680_0_1.jpg",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/images/up0000025680_0_0.jpg",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues/Jeu3/images/up0000014550_2_2.jpg",
     "Programmes/venv/lib/python3.12/site-packages/supervision-0.25.1.dist-info/LICENSE.md",
     "Programmes/venv/lib/python3.12/site-packages/idna-3.7.dist-info/LICENSE.md",
     "Programmes/venv/lib/python3.12/site-packages/seaborn-0.13.2.dist-info/LICENSE.md",
@@ -311,15 +306,6 @@
     "Programmes/venv/lib/python3.12/site-packages/scipy/fft/_pocketfft/LICENSE.md",
     "Modèles/YOLOv10/To Do List - Générale.md",
     "Modèles/YOLOv10/Dataset/Dataset - ROI modifying.md",
-    "Compte rendus/Juin/18-06-2025.md",
-    "Compte rendus/Juin/17-06-2025.md",
-    "Compte rendus/Juin/06-06-2025.md",
-    "Compte rendus/Juin/04-06-2025.md",
-    "Modèles/YOLOv10/Dataset/Dataset - CLAHE.md",
-    "Programmes/venv/lib/python3.12/site-packages/numpy/random/LICENSE.md",
-    "Programmes/venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/extensions/README.md",
-    "Programmes/venv/lib/python3.12/site-packages/pyzmq-27.0.0.dist-info/licenses/LICENSE.md",
-    "Programmes/venv/lib/python3.12/site-packages/zmq/backend/cffi/README.md",
     "IGN-remote/Templates/Sujet - Pipelines.canvas",
     "IGN-remote/References/Bibliographie.canvas",
     "IGN-remote/Modèles/YOLOv10/Général/YOLOv10 - Pipelines.canvas",

@@ -4,6 +4,25 @@ tags:
 Début période: 2025-06-02
 Fin de période: ""
 ---
+## 30 Juin 2025 - Lundi
+Détails: [[30-06-2025]]
+
+Génération des copies du dataset avec un filtre violet et téléchargement des données sur RobotFlow. Aucun entrainement n'a pu être lancé en raison des restrictions de droits sur le serveur. Malgré une longue bataille avec différente technique cela n'a pas aboutit. 
+
+
+
+## 27 Juin 2025 - Vendredi
+Détails: [[27-06-2025]]
+
+Avancement sur le rapport de stage. 
+
+
+## 24 Juin 2025 - Mardi
+Détails: [[24-06-2025]]
+
+Clarification des objectifs et entretient avec Guillaume
+
+
 ## 23 Juin 2025 - Lundi
 Détails: [[23-06-2025]]
 

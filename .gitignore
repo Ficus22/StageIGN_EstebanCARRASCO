@@ -6,3 +6,7 @@
 /Programmes/YOLOv10/Dataset/ImageUpgrader/ImagesExtraitesRetenues
 
 /Programmes/venv/
+/Programmes/YOLOv10/Dataset/datasets_RF/
+/Programmes/YOLOv10/Dataset/DataAugmentor/test/
+/Programmes/YOLOv10/Dataset/DataAugmentor/train/
+/Programmes/YOLOv10/Dataset/DataAugmentor/valid/
