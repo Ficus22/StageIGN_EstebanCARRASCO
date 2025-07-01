@@ -2,12 +2,13 @@
 tags:
   - compte-rendu
 Début période: 2025-06-02
-Fin de période: ""
+Fin de période: 2025-06-30
 ---
 ## 30 Juin 2025 - Lundi
 Détails: [[30-06-2025]]
 
 Génération des copies du dataset avec un filtre violet et téléchargement des données sur RobotFlow. Aucun entrainement n'a pu être lancé en raison des restrictions de droits sur le serveur. Malgré une longue bataille avec différente technique cela n'a pas aboutit. 
+Un entrainement a finalement été lancé avant de partir. 
 
 
 

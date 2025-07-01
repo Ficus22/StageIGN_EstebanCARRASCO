@@ -2,7 +2,7 @@
 tags:
   - note-quotidienne
 Auteur: Esteban Carrasco
-Fichier mère: "[[Compte rendu - Juin]]"
+Fichier mère: "[[Compte rendus - Juillet]]"
 ---
 
 > [!todo]+ To do list

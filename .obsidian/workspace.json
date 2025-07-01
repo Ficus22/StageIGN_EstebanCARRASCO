@@ -60,49 +60,52 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9765a30c07fb1a0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Compte rendus/Juin/27-06-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "27-06-2025"
-            }
-          },
-          {
             "id": "bb734e532c9fa991",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Compte rendus/Juin/Compte rendu - Juin.md",
+                "file": "Compte rendus/Juillet/Compte rendus - Juillet.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Compte rendu - Juin"
+              "title": "Compte rendus - Juillet"
             }
           },
           {
             "id": "a410de9e74c2ee92",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Rapport de stage/TemplateWiki.pdf"
+                "file": "Compte rendus/Juin/30-06-2025.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "TemplateWiki"
+              "icon": "lucide-file",
+              "title": "30-06-2025"
+            }
+          },
+          {
+            "id": "c54428b5dfde966e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Compte rendus/Juillet/Compte rendus - Juillet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Compte rendus - Juillet"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -259,12 +262,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bb734e532c9fa991",
+  "active": "c54428b5dfde966e",
   "lastOpenFiles": [
-    "Compte rendus/Juin/27-06-2025.md",
-    "Compte rendus/Juin/24-06-2025.md",
+    "Compte rendus/Juillet/01-07-2025.md",
+    "Templates/Note quotidienne.md",
     "Compte rendus/Juin/Compte rendu - Juin.md",
     "Compte rendus/Juin/30-06-2025.md",
+    "Rapport de stage/TemplateWiki.pdf",
+    "Compte rendus/Juillet/Compte rendus - Juillet.md",
+    "Compte rendus/Juin/27-06-2025.md",
+    "Compte rendus/Juillet",
+    "Compte rendus/Juin/24-06-2025.md",
     "Programmes/YOLOv10/Calculateur/YOLODataImport.py",
     "Programmes/YOLOv10/Calculateur",
     "Programmes/YOLOv10/Dataset/Calculateur",
@@ -273,8 +281,6 @@
     "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/labels/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-8_jpg.rf.df5fdb3e2de4b4881ea529c741f9a8c7.txt",
     "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/labels/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-7_jpg.rf.7737329aff955231d5117053cb492b58.txt",
     "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/labels/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-6_jpg.rf.ceabd7a6cd6b0ec92dec4c9b284f02d0.txt",
-    "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/labels/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-5_jpg.rf.a92732540de1d6a7ca5a51f65e35f0a9.txt",
-    "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/labels/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-4_jpg.rf.051c4c9c70e8e5ad97a4fbc92f6c1d5b.txt",
     "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/images/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-8_jpg.rf.df5fdb3e2de4b4881ea529c741f9a8c7.jpg",
     "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/images/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-7_jpg.rf.7737329aff955231d5117053cb492b58.jpg",
     "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/images/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-6_jpg.rf.ceabd7a6cd6b0ec92dec4c9b284f02d0.jpg",
@@ -304,8 +310,6 @@
     "Programmes/venv/lib/python3.12/site-packages/torchgen/packaged/autograd/README.md",
     "Programmes/venv/lib/python3.12/site-packages/idna-3.10.dist-info/LICENSE.md",
     "Programmes/venv/lib/python3.12/site-packages/scipy/fft/_pocketfft/LICENSE.md",
-    "Modèles/YOLOv10/To Do List - Générale.md",
-    "Modèles/YOLOv10/Dataset/Dataset - ROI modifying.md",
     "IGN-remote/Templates/Sujet - Pipelines.canvas",
     "IGN-remote/References/Bibliographie.canvas",
     "IGN-remote/Modèles/YOLOv10/Général/YOLOv10 - Pipelines.canvas",
