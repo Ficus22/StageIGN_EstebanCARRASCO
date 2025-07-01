@@ -3,7 +3,7 @@ import os
 
 HOME = os.getcwd()
 
-model = YOLO("yolov10m.yaml")
+model = YOLO("yolov10m.pt")
 
 dataset_path = os.path.join(HOME, "GeoDanceHive-BeeDataset-3", "data.yaml")
 print(dataset_path)
