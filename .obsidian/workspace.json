@@ -93,15 +93,12 @@
             "id": "c54428b5dfde966e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Compte rendus/Juillet/Compte rendus - Juillet.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Programmes/YOLOv10/Dataset/ImageCisors/Output/images/_99191421_gettyimages-801124046_jpg.rf.cf018c6930c40b99edb7e54d07d85c6c_1_1.jpg"
               },
-              "icon": "lucide-file",
-              "title": "Compte rendus - Juillet"
+              "icon": "lucide-image",
+              "title": "_99191421_gettyimages-801124046_jpg.rf.cf018c6930c40b99edb7e54d07d85c6c_1_1"
             }
           }
         ],
@@ -264,12 +261,16 @@
   },
   "active": "c54428b5dfde966e",
   "lastOpenFiles": [
+    "Programmes/YOLOv10/Dataset/ImageCisors/Output/images/_99191421_gettyimages-801124046_jpg.rf.cf018c6930c40b99edb7e54d07d85c6c_1_0.jpg",
+    "Programmes/YOLOv10/Dataset/ImageCisors/Output/images/_99191421_gettyimages-801124046_jpg.rf.cf018c6930c40b99edb7e54d07d85c6c_0_1.jpg",
+    "Programmes/YOLOv10/Dataset/ImageCisors/Output/images/_99191421_gettyimages-801124046_jpg.rf.cf018c6930c40b99edb7e54d07d85c6c_0_0.jpg",
+    "Compte rendus/Juillet/02-07-2025.md",
     "Compte rendus/Juillet/01-07-2025.md",
+    "Compte rendus/Juin/30-06-2025.md",
+    "Compte rendus/Juillet/Compte rendus - Juillet.md",
     "Templates/Note quotidienne.md",
     "Compte rendus/Juin/Compte rendu - Juin.md",
-    "Compte rendus/Juin/30-06-2025.md",
     "Rapport de stage/TemplateWiki.pdf",
-    "Compte rendus/Juillet/Compte rendus - Juillet.md",
     "Compte rendus/Juin/27-06-2025.md",
     "Compte rendus/Juillet",
     "Compte rendus/Juin/24-06-2025.md",
@@ -289,8 +290,6 @@
     "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/images/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-3_jpg.rf.433cea5138d7a73d9862da02058cf8f0.jpg",
     "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/images/yellow-flower-and-bee-dance-sari-cicek-ve-ari-dansi_mp4-1_jpg.rf.6d6a15427c3ae149198cc1af767c7ff5.jpg",
     "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/images/workers1_jpg.rf.311a9bd5a990d54cc2f18d6c5c806a6e.jpg",
-    "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/images/the-queen-bee-swarm-selective-focus-2B6MDAA_jpg.rf.9a76bdf751a1c6ad6c9d0f5f36f9af6e.jpg",
-    "Programmes/YOLOv10/Dataset/datasets_RF/GeoDanceHive-BeeDataset-2/train/images/swarm-bees_jpg.rf.f63f63df5fc7c761da71614e004e2746.jpg",
     "Programmes/venv/lib/python3.12/site-packages/jupyter_server/i18n/README.md",
     "Programmes/venv/lib/python3.12/site-packages/nbconvert/templates/skeleton/README.md",
     "Programmes/venv/lib/python3.12/site-packages/nbconvert/templates/README.md",
@@ -308,8 +307,6 @@
     "Programmes/venv/lib/python3.12/site-packages/idna-3.7.dist-info/LICENSE.md",
     "Programmes/venv/lib/python3.12/site-packages/seaborn-0.13.2.dist-info/LICENSE.md",
     "Programmes/venv/lib/python3.12/site-packages/torchgen/packaged/autograd/README.md",
-    "Programmes/venv/lib/python3.12/site-packages/idna-3.10.dist-info/LICENSE.md",
-    "Programmes/venv/lib/python3.12/site-packages/scipy/fft/_pocketfft/LICENSE.md",
     "IGN-remote/Templates/Sujet - Pipelines.canvas",
     "IGN-remote/References/Bibliographie.canvas",
     "IGN-remote/Modèles/YOLOv10/Général/YOLOv10 - Pipelines.canvas",
