@@ -13,17 +13,23 @@ aliases:
 - [[YOLOv10 - Overview]]
 - [[YOLOv10 - Contouring]]
 - [[YOLOv10 - Pipelines.canvas|Pipelines]]
+- [[YOLOv10 - Anchor boxes]]
 ### Fine Tuning
 - [[YOLOv10 - Fine Tuning]]
 - [[YOLOv10 - Configuration du modèle]]
+- [[YOLOv10 - Model evaluation]]
 
 ## Dataset
 - [[Dataset - Format]]
 - [[Dataset - Adaptation to csv data]]
+- [[Dataset - CLAHE]]
+- [[Dataset - ROI modifying]]
+- [[Dataset - Création d'un dataset personnalisé]]
 
 ### Data augmentation
 - [[Dataset - Data augmentation (physic)]]
 - [[Dataset - Data augmentation (virtual)]]
+- 
 
 ## Communication
 [[Dataset - Message Zulip]]
