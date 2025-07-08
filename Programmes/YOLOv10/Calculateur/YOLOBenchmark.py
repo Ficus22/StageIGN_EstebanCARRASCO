@@ -4,7 +4,9 @@ import numpy as np
 import os
 import shutil
 
-# Charge les prédictions du modèle YOLO sur une image, renvoie un dataframe
+
+
+# Charge les prédictions du modèle YOLO sur une image et renvoie le dataframe
 def load_pred_labels(model_path, image_path, id_num, nb_epochs, nb_batch):
     model = YOLO(model_path, task='detect')
     results = model(image_path)
@@ -127,6 +129,9 @@ def compute_metrics(gt_labels, pred_labels, inference_time_ms):
     else:
         score_fpr = 10 * (1 - (fpr - 0.05) / 0.25)
 
+    # Score F1 (Affichage seulement)
+    score_f1 = 2*((recall*precision)/(recall+precision))
+
     # Score final
     score_total = score_count + score_iou + score_precision + score_recall + score_map + score_time + score_fpr
 
@@ -135,7 +140,8 @@ def compute_metrics(gt_labels, pred_labels, inference_time_ms):
         'score_count': round(score_count, 2),  
 		'score_iou': round(score_iou, 2),  
 		'score_precision': round(score_precision, 2),  
-		'score_recall': round(score_recall, 2),  
+		'score_recall': round(score_recall, 2),
+        'score_f1': round(score_f1, 2),  
 		'score_map': round(score_map, 2),  
 		'score_time': round(score_time, 2),  
 		'score_fpr': round(score_fpr, 2),  
@@ -166,6 +172,7 @@ def save_metrics_to_txt(score_details, model_path, nb_epochs, nb_batch, id_num):
         f.write(f"IoU moyen (score): {score_details['score_iou']}/25 (valeur={score_details['iou_mean']})\n")
         f.write(f"Précision (score): {score_details['score_precision']}/10 (valeur={score_details['precision']})\n")
         f.write(f"Rappel (score): {score_details['score_recall']}/10 (valeur={score_details['recall']})\n")
+        f.write(f"Score F1: {score_details['score_f1']}")
         f.write(f"mAP@0.5 (score): {score_details['score_map']}/10\n")
         f.write(f"Temps d’inférence (score): {score_details['score_time']}/10 ({score_details['inference_time_ms']} ms)\n")
         f.write(f"Faux positifs (score): {score_details['score_fpr']}/10 (fpr={score_details['fpr']})\n\n")

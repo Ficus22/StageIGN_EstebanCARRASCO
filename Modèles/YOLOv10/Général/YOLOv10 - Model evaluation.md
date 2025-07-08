@@ -7,7 +7,7 @@ References: "[[Bibliographie.canvas|Bibliographie]]"
 Objectif: Déterminer une bonne metric d'évaluation des performance d'un modèle
 aliases:
 ---
-## Récupération de l'image inférrée
+## Récupération de l'image inférée
 Pour récupérer le fichier `.txt` des labels générés par YOLO après inférence sur une image, il existe une méthode standard intégrée dans les outils Ultralytics  :
 
 ```python
@@ -20,7 +20,13 @@ for result in results:
 ```
 *extrait de la [doc ultralytics](https://docs.ultralytics.com/reference/engine/results/#ultralytics.engine.results.Results.save_txt)*
 
-Cela dit peut-être qu'une utilisation direct sous forme de dataframe est plus optimale.
+Or dans mon code, pour moins d'étapes intermédiaire, je récupère directement les donnée sous forme d'un dataframe. 
+```python
+model = YOLO(model_path, task='detect')
+results = model(image_path)
+pred_labels = results[0].to_df()
+```
+
 
 ## Métrique faite maison
 ### 1. Nombre d’individus détectés (25 points)
@@ -45,7 +51,7 @@ Cela dit peut-être qu'une utilisation direct sous forme de dataframe est plus o
 
 ### 5. mAP@0.5 (10 points)
 
-- **But** : Performance globale des détections.
+- **But** : Performance globale des détections par classe.
 - **Notation** : 10/10 si mAP@0.5 ≥ 0,95, linéairement jusqu’à 0/10 si mAP@0.5 ≤ 0,7.
 
 ### 6. Temps d’inférence (10 points)
