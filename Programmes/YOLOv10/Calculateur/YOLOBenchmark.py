@@ -10,7 +10,7 @@ import shutil
 def load_pred_labels(model_path, image_path, id_num, nb_epochs, nb_batch):
     model = YOLO(model_path, task='detect')
     results = model(image_path)
-    results[0].save(f'ResultImage_e{nb_epochs}_b{nb_batch}_r{id_num}.jpg')
+    results[0].save(f'Results/Result_e{nb_epochs}_b{nb_batch}_t{id_num}/ResultImage_e{nb_epochs}_b{nb_batch}_t{id_num}.jpg', )
     pred_labels = results[0].to_df()  # id | Name | Class | Confidence | Box (tuple)
     return pred_labels
 
@@ -24,16 +24,31 @@ def load_ground_truth_labels(txt_path):
 
 
 # Convertit les dataframes en liste de dict (pour match_boxes)
-def df_to_label_list(df, conf_threshold=0.20):
+def ground_truth_df_to_labels(df):
     labels = []
     for _, row in df.iterrows():
-        if 'Confidence' in df.columns and row['Confidence'] < conf_threshold:
-            continue
+        bbox = [row['x_center'], row['y_center'], row['width'], row['height']]
         labels.append({
-            'class': int(row['Class']) if 'Class' in df.columns else int(row['class']),
-            # [x_center, y_center, width, height]
-            'bbox': [row['Box'][0], row['Box'][1], row['Box'][2], row['Box'][3]] if 'Box' in df.columns else
-                    [row['x_center'], row['y_center'], row['width'], row['height']]
+            'class': int(row['class']),
+            'bbox': bbox
+        })
+    return labels
+
+
+def pred_df_to_labels(df, conf_threshold=0.2):
+    labels = []
+    for _, row in df.iterrows():
+        if row['confidence'] < conf_threshold:
+            continue
+        box = row['box']
+        x1, y1, x2, y2 = box['x1'], box['y1'], box['x2'], box['y2']
+        x_center = (x1 + x2) / 2
+        y_center = (y1 + y2) / 2
+        width = x2 - x1
+        height = y2 - y1
+        labels.append({
+            'class': int(row['class']),
+            'bbox': [x_center, y_center, width, height]
         })
     return labels
 
@@ -130,7 +145,11 @@ def compute_metrics(gt_labels, pred_labels, inference_time_ms):
         score_fpr = 10 * (1 - (fpr - 0.05) / 0.25)
 
     # Score F1 (Affichage seulement)
-    score_f1 = 2*((recall*precision)/(recall+precision))
+    if recall + precision > 0:
+        score_f1 = 2 * ((recall * precision) / (recall + precision))
+    else:
+        score_f1 = 0
+
 
     # Score final
     score_total = score_count + score_iou + score_precision + score_recall + score_map + score_time + score_fpr
@@ -160,19 +179,20 @@ def compute_metrics(gt_labels, pred_labels, inference_time_ms):
 
 
 def save_metrics_to_txt(score_details, model_path, nb_epochs, nb_batch, id_num):
-    file_name = f"Results/Result_e{nb_epochs}_b{nb_batch}_r{id_num}/ResultsResum_e{nb_epochs}_b{nb_batch}_r{id_num}.txt"
-    os.makedirs(f"Results/Result_e{nb_epochs}_b{nb_batch}_r{id_num}", exist_ok=True)
-    shutil.copyfile(model_path, f"Results/Result_e{nb_epochs}_b{nb_batch}_r{id_num}/Best00{id_num}.pt")
+    file_name = f"Results/Result_e{nb_epochs}_b{nb_batch}_t{id_num}/ResultsResum_e{nb_epochs}_b{nb_batch}_t{id_num}.txt"
+    os.makedirs(f"Results/Result_e{nb_epochs}_b{nb_batch}_t{id_num}", exist_ok=True)
+
+    shutil.copyfile(model_path, f"Results/Result_e{nb_epochs}_b{nb_batch}_t{id_num}/Best00{id_num}.pt")
 
     with open(file_name, 'w') as f:
-        f.write(f"Résultats \nepochs={nb_epochs}, batch={nb_batch}, run ID={id_num}\n\n")
+        f.write(f"Résultats \n\nepochs={nb_epochs}, batch={nb_batch}, BDD vesrion={bdd_version}, train ID={id_num}\n\n")
         f.write(f"Score global (/100): {score_details['score_total']}\n")
         f.write("---- Détails ----\n")
         f.write(f"Nombre individus (score): {score_details['score_count']}/25\n")
         f.write(f"IoU moyen (score): {score_details['score_iou']}/25 (valeur={score_details['iou_mean']})\n")
         f.write(f"Précision (score): {score_details['score_precision']}/10 (valeur={score_details['precision']})\n")
         f.write(f"Rappel (score): {score_details['score_recall']}/10 (valeur={score_details['recall']})\n")
-        f.write(f"Score F1: {score_details['score_f1']}")
+        f.write(f"Score F1: {score_details['score_f1']}\n")
         f.write(f"mAP@0.5 (score): {score_details['score_map']}/10\n")
         f.write(f"Temps d’inférence (score): {score_details['score_time']}/10 ({score_details['inference_time_ms']} ms)\n")
         f.write(f"Faux positifs (score): {score_details['score_fpr']}/10 (fpr={score_details['fpr']})\n\n")
@@ -185,25 +205,26 @@ def save_metrics_to_txt(score_details, model_path, nb_epochs, nb_batch, id_num):
 
 #----
 
-image_path = 'Truth/image.jpg'
-gt_txt = 'Truth/label.txt'
+image_path = 'Truth/truthImage.jpg'
+gt_txt = 'Truth/truthImage.txt'
 
-nb_epochs = 50
-nb_batch = 16
-run_num = 2
+nb_epochs = 100
+nb_batch = 32
+bdd_version = 3
+train_num = 1
 
-model_path = 'runs/detect/train{run_num}/weights/best.pt'
+model_path = f'runs/detect/train{train_num}/weights/best.pt'
 
 
-inference_time_ms = 120
+inference_time_ms = 61.9
 
-gt_labels = df_to_label_list(load_ground_truth_labels(gt_txt))
-pred_labels = df_to_label_list(load_pred_labels(model_path, image_path, run_num, nb_epochs, nb_batch))
+gt_labels = ground_truth_df_to_labels(load_ground_truth_labels(gt_txt))
+pred_labels = pred_df_to_labels(load_pred_labels(model_path, image_path, train_num, nb_epochs, nb_batch))
 
 
 score_details = compute_metrics(gt_labels, pred_labels, inference_time_ms)
 
-save_metrics_to_txt(score_details, model_path, nb_epochs, nb_batch, run_num)
+save_metrics_to_txt(score_details, model_path, nb_epochs, nb_batch, train_num)
 
 print("Score global (/100) :", score_details['score_total'])
 print("Détail du score :", score_details)
