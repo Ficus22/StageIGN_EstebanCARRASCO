@@ -1,0 +1,21 @@
+              *** RESULTATS ***
+
+epochs=100, batch=16, BDD version=2, train ID=9
+
+Score global: 68.14/100
+
+---- Détails des scores ----
+Nombre individus: 20.74/25
+IoU moyen: 18.65/25 (valeur=0.761)
+Précision: 6.69/10 (valeur=0.669)
+Rappel: 7.26/10 (valeur=0.726)
+F1: 0.7
+mAP@0.5: 5.35/10
+Temps d’inférence: 9.44/10 (65 ms)
+Faux positifs: 0/10 (fpr=0.331)
+
+---- Statistiques brutes ----
+Nombre total réels d'individus: 223
+Nombre total détectés d'individus: 242
+Invidus réels détectés: 162
+Faux positifs: 80

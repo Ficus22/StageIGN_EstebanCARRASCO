@@ -1,0 +1,10 @@
+              *** RESULTATS ***
+
+epochs=100, batch=16, BDD version=1, train ID=5
+
+Score global: 0/100
+
+---- Détails des scores ----
+NULL
+---- Statistiques brutes ----
+NULL

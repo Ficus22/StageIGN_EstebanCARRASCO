@@ -17,7 +17,7 @@ aliases:
 ### Fine Tuning
 - [[YOLOv10 - Fine Tuning]]
 - [[YOLOv10 - Configuration du modèle]]
-- [[YOLOv10 - Model evaluation]]
+- [[YOLOv10 - Benchmark]]
 
 ## Dataset
 - [[Dataset - Format]]

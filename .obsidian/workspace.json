@@ -21,76 +21,44 @@
               "icon": "lucide-file",
               "title": "YOLOv10"
             }
-          },
-          {
-            "id": "372b04bebe7ee623",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modèles/YOLOv10/Général/YOLOv10 - Model evaluation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "YOLOv10 - Model evaluation"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "5ddfca771b069e1a",
         "type": "tabs",
         "children": [
           {
-            "id": "bb734e532c9fa991",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Compte rendus/Juillet/Compte rendus - Juillet.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Compte rendus - Juillet"
-            }
-          },
-          {
-            "id": "c38e940e9e3ea097",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Compte rendus/Juillet/09-07-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "09-07-2025"
-            }
-          },
-          {
             "id": "d77daf9e2713bbdf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Compte rendus/Juillet/08-07-2025.md",
+                "file": "Compte rendus/Juillet/11-07-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "08-07-2025"
+              "title": "11-07-2025"
+            }
+          },
+          {
+            "id": "f5dedc440d5a1425",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Procédure ApeStick  - EPM.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Procédure ApeStick  - EPM"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -247,54 +215,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c38e940e9e3ea097",
+  "active": "d77daf9e2713bbdf",
   "lastOpenFiles": [
-    "Modèles/YOLOv10/Général/YOLOv10 - Model evaluation.md",
-    "Modèles/YOLOv10/Général/lu2759483for.tmp",
-    "Programmes/YOLOv10/Calculateur/help.md",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/Truth/truthImage.jpg",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/Truth/truthImage.txt",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/annotateImages/label/truthImage.txt",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/annotateImages/json/truthImage.json",
-    "Compte rendus/Juillet/09-07-2025.md",
     "Compte rendus/Juillet/08-07-2025.md",
+    "Modèles/YOLOv10/YOLOv10.md",
+    "Programmes/YOLOv10/Calculateur/Results/Result_e50_b16_t2/ResultImage_e50_b16_t2.jpg",
+    "Programmes/YOLOv10/Calculateur/Results/Result_e50_b16_t15/ResultImage_e50_b16_t15.jpg",
+    "Programmes/YOLOv10/Calculateur/Results/Result_e100_b16_t17/ResultImage_e100_b16_t17.jpg",
+    "Compte rendus/Juillet/11-07-2025.md",
+    "Modèles/YOLOv10/Général/lu66243co0.tmp",
+    "Programmes/YOLOv10/Calculateur/help.md",
+    "Programmes/YOLOv10/Calculateur/Results/Result_e50_b16_t2/ResultLabels_e50_b16_t2.txt",
+    "Programmes/YOLOv10/Calculateur/Results/Result_e50_b16_t2/Best002.pt",
+    "Programmes/YOLOv10/Calculateur/Results/Result_e50_b16_t2/ResultsResum_e50_b16_t2.txt",
+    "Programmes/YOLOv10/Calculateur/Results/Result_e50_b16_t2",
+    "Programmes/YOLOv10/Calculateur/Results/Result_e100_b16_t9/ResultLabels_e100_b16_t9.txt",
+    "Programmes/YOLOv10/Calculateur/Results/Result_e100_b16_t9/ResultsResum_e100_b16_t9.txt",
+    "Programmes/YOLOv10/Calculateur/Results/Result_e100_b16_t9/ResultImage_e100_b16_t9.jpg",
+    "Programmes/YOLOv10/Calculateur/Results/Result_e100_b16_t9/Best009.pt",
+    "Programmes/YOLOv10/Calculateur/Results/Result_e100_b16_t9",
+    "Programmes/YOLOv10/Calculateur/Results/Result_e100_b16_t12/ResultImage_e100_b16_t12.jpg",
+    "Programmes/YOLOv10/Calculateur/Results/Result_e100_b16_t12/ResultLabels_e100_b16_t12.txt",
+    "Programmes/YOLOv10/Calculateur/Results/Result_e100_b32_t18/ResultImage_e100_b32_t18.jpg",
+    "Programmes/YOLOv10/Calculateur/Results/Result_e50_b32_t16/ResultImage_e50_b32_t16.jpg",
+    "Programmes/YOLOv10/Calculateur/Results/Result_e50_b32_t8/ResultImage_e50_b32_t8.jpg",
+    "Programmes/YOLOv10/Calculateur/Results/Result_e200_b32_t13/ResultImage_e200_b32_t13.jpg",
+    "Programmes/YOLOv10/Calculateur/Results/Result_e50_b16_t7/ResultImage_e50_b16_t7.jpg",
+    "Modèles/YOLOv10/Général/YOLOv10 - Benchmark.md",
+    "Procédure ApeStick  - EPM.md",
+    "Compte rendus/Juillet/09-07-2025.md",
+    "Compte rendus/Juillet/10-07-2025.md",
+    "[Programmes/YOLOv10/Calculateur/Debug/Debug.py.md",
     "Compte rendus/Juillet/Compte rendus - Juillet.md",
     "Compte rendus/Juillet/07-07-2025.md",
     "Compte rendus/Juillet/04-07-2025.md",
     "Compte rendus/Juillet/03-07-2025.md",
     "Compte rendus/Juillet/02-07-2025.md",
     "Compte rendus/Juin/Compte rendu - Juin.md",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/Truth/up0000017220.jpg",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/Truth",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/annotateImages/modifiedImage/up0000017220.jpg",
-    "Programmes/YOLOv10/Calculateur/YOLOBenchmark.py",
-    "Programmes/YOLOv10/Calculateur/YOLOBenchmark",
-    "Modèles/YOLOv10/YOLOv10.md",
     "Compte rendus/Juin/30-06-2025.md",
     "Compte rendus/Juillet/01-07-2025.md",
     "Compte rendus/Mai/13-05-2025.md",
-    "LostInZoom/map images/rotated.png",
-    "LostInZoom/map images/osm_18.png",
-    "LostInZoom/map images/osm_16.png",
-    "LostInZoom/map images/osm_14.png",
-    "LostInZoom/map images/osm_12.png",
-    "LostInZoom/map images/no_label.png",
-    "LostInZoom/map images/ign_18.png",
-    "LostInZoom/map images",
-    "LostInZoom",
     "Modèles/YOLOv10/Général/YOLOv10 - Configuration du modèle.md",
     "Modèles/YOLOv10/Dataset/Dataset - ROI modifying.md",
     "References/Bibliographie.canvas",
-    "Présentation/Présentation-030725.pdf",
     "Modèles/YOLOv10/Dataset/Dataset - Format.md",
     "Templates/Note quotidienne.md",
     "Compte rendus/Juin/27-06-2025.md",
     "Compte rendus/Juin/24-06-2025.md",
     "Programmes/venv/lib/python3.12/site-packages/jupyter_server/i18n/README.md",
-    "Programmes/venv/lib/python3.12/site-packages/nbconvert/templates/skeleton/README.md",
-    "Programmes/venv/lib/python3.12/site-packages/nbconvert/templates/README.md",
-    "Programmes/venv/lib/python3.12/site-packages/httpx-0.28.1.dist-info/licenses/LICENSE.md",
-    "Programmes/venv/lib/python3.12/site-packages/httpcore-1.0.9.dist-info/licenses/LICENSE.md",
     "IGN-remote/Templates/Sujet - Pipelines.canvas",
     "IGN-remote/References/Bibliographie.canvas",
     "IGN-remote/Modèles/YOLOv10/Général/YOLOv10 - Pipelines.canvas",
