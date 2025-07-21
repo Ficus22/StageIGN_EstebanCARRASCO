@@ -14,6 +14,7 @@ aliases:
 - [[YOLOv10 - Contouring]]
 - [[YOLOv10 - Pipelines.canvas|Pipelines]]
 - [[YOLOv10 - Anchor boxes]]
+- [[YOLOv10 - Ablation Study]]
 ### Fine Tuning
 - [[YOLOv10 - Fine Tuning]]
 - [[YOLOv10 - Configuration du modèle]]
@@ -23,7 +24,6 @@ aliases:
 - [[Dataset - Format]]
 - [[Dataset - Adaptation to csv data]]
 - [[Dataset - CLAHE]]
-- [[Dataset - ROI modifying]]
 - [[Dataset - Création d'un dataset personnalisé]]
 
 ### Data augmentation
