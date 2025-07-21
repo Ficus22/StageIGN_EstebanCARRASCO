@@ -38,11 +38,9 @@ Participation également à une réunion "LostInZoom" où une tâche a été att
 
 Détails: [[02-07-2025]]
 
-Réunion avec Guillaume. Lancement d'une inférence sur quelques images.  
+Réunion avec Guillaume. Lancement d'une inférence sur quelques images : YOUPI, ça fonctionne.  Observation des premiers résultats de détection. 
 Préparation de l’entretien avec FJ Richard via un canvas dédié.
 
-
-Souhaite-tu que je te renvoie l’ensemble du fichier complet (avec le 1er juillet inclus), ou uniquement les ajouts à copier-coller ?
 ## 01 Juillet 2025 - Mardi
 Détails: [[01-07-2025]]
 
