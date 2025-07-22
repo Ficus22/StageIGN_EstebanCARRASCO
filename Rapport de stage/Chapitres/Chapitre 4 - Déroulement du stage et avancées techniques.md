@@ -114,7 +114,7 @@ A ce moment-là, il ne s’agissait plus seulement de dire _où_ se trouve une a
 
 différents scripts et Ablation study
 
-## 7. **Résultats obtenus à la fin du stage**
+## Résultats obtenus à la fin du stage
 
 > [!tip]-
 > - Fonctionnement des deux premières briques validé :

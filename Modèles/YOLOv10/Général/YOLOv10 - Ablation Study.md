@@ -51,16 +51,30 @@ Dans ce résumé, nous excluons l'entrainement n°0 correspondant à un premier 
 
 ### Modèles les plus performants au regard du score total
 
-|ID|Score total|F1 score|Precision|Recall|IoU mean|FP rate|
-|---|---|---|---|---|---|---|
-|**train2**|**74,99**|0,7345|0,738|0,731|0,766|0,262|
-|**train10**|**72,3**|0,7142|0,729|0,7|0,764|0,271|
-|**train13**|**72,98**|0,7260|0,721|0,731|0,754|0,279|
-|**train18**|**71,02**|0,7430|0,717|0,771|0,765|0,283|
-|**train12**|**69,15**|0,7417|0,707|0,78|0,763|0,293|
+| ID          | Score total | F1 score | Precision | Recall | IoU mean | FP rate |
+| ----------- | ----------- | -------- | --------- | ------ | -------- | ------- |
+| **train2**  | **74,99**   | 0,7345   | 0,738     | 0,731  | 0,766    | 0,262   |
+| **train10** | **72,3**    | 0,7142   | 0,729     | 0,7    | 0,764    | 0,271   |
+| **train13** | **72,98**   | 0,7260   | 0,721     | 0,731  | 0,754    | 0,279   |
+| **train18** | **71,02**   | 0,7430   | 0,717     | 0,771  | 0,765    | 0,283   |
+| **train12** | **69,15**   | 0,7417   | 0,707     | 0,78   | 0,763    | 0,293   |
 
 Ces modèles combinent bon F1-score, haut IoU et faible taux de faux positifs (FP rate).
 
+### Modèles les plus performants au regard du score F1
+1. train15
+2. train18
+3. train16
+
+### Modèles les plus performants au regard du recall
+1. train15
+2. train11
+3. train16
+
+### Modèles les plus performants au regard de la précision
+1. train8
+2. train1
+3. train7
 
 ### Modèles sous-performants
 Ci-dessous la liste des modèles relevés comme sous-performant.
@@ -164,14 +178,13 @@ Comment interpréter ces corrélations :
 Cela montre que certains hyperparamètres n'ont pas d'effet significatif isolément sur la performance globale.
 
 
-### Discussion
-Les résultats de cette étude mettent en évidence plusieurs enseignements intéressants sur la performance des modèles YOLO selon les versions de dataset, les paramètres d’entraînement et les métriques de détection. D’abord, la version de la base de données utilisée a un impact considérable sur la performance globale du modèle, bien plus significatif que celui des hyperparamètres classiques tels que le nombre d’epochs ou la taille du batch. En particulier, la version 3 du dataset, issue d’un simple filtrage colorimétrique sur la version 2, semble produire les modèles les plus efficaces, ce qui suggère que des modifications visuelles même mineures peuvent renforcer la robustesse du modèle en apportant une forme d’augmentation de données implicite. La version 4, enrichie de nombreuses nouvelles images annotées, confirme également cette tendance à l’amélioration via l’enrichissement des données.
-
-Les modèles les mieux notés, comme _train2_, _train10_ et _train13_, présentent une combinaison optimale entre F1-score élevé, IoU supérieur à 0,76 et faible taux de faux positifs, indiquant que le score total construit pour cette étude est cohérent avec les standards d’évaluation classiques. À l’inverse, certains entraînements (notamment ceux réalisés sur la version 1 du dataset) échouent complètement à détecter quoi que ce soit, illustrant la limite des données d'origine pour une utilisation avec la GeoDanceHive. 
-
-La matrice de corrélation vient appuyer ces conclusions quantitativement. Elle montre que le score total est fortement corrélé avec des métriques clés telles que le recall, le IoU, le taux de détection ou encore la précision, confirmant qu’il est un indicateur global pertinent. D’ailleurs, les corrélations très fortes entre certaines variables, comme celles entre recall, matched et nombre de détections, indiquent une dépendance structurelle entre les métriques de détection, rendant certaines d’entre elles redondantes dans l’analyse.
-
-Enfin, du côté des hyperparamètres, l’impact du nombre d’epochs, bien que positif, reste modeste et tend à saturer rapidement, surtout au-delà de 100 epochs. Le batch size, quant à lui, s'avère globalement insignifiant. Cela souligne que dans un cadre à ressources limitées (durée du stage), la priorité devrait être donnée à la qualité et la diversité du dataset plutôt qu’à l’ajustement fin de ces hyperparamètres.
-
 ## Conclusion
-Cette _Ablation study_ confirme de manière claire que la qualité et l’enrichissement du dataset sont les facteurs déterminants pour obtenir de bonnes performances dans une tâche de détection d'objets. La version 3 du dataset, combinant annotations issues du terrain et transformation colorimétrique, permet d’atteindre les meilleurs résultats, supplantant même les apports d’un entraînement prolongé. Le score total utilisé, construit à partir des métriques classiques, reflète fidèlement la performance globale des modèles. Par ailleurs, l’analyse statistique confirme que les métriques de détection sont fortement liées entre elles, mais surtout que l’impact des hyperparamètres comme les epochs ou le batch size reste marginal en comparaison avec le choix du dataset. En résumé, pour optimiser les performances dans ce contexte, il vaudrait mieux investir dans la diversification et l’enrichissement des données plutôt que dans le raffinement des paramètres d’entraînement.
+Cette _Ablation study_ démontre que la performance d’un modèle de détection repose avant tout sur la qualité des données d'entraînement. La version 3 du dataset, issue d’un simple filtrage colorimétrique appliqué à une version enrichie (v2), produit plusieurs modèles performants. Mais c’est finalement le modèle _train15_, entraîné sur la version 4, qui s’impose comme le plus performant de toute l’étude, avec un F1 score de 0,7515, un recall de 0,796, une précision de 0,711, un IoU moyen de 0,761, et un score total élevé. Ces résultats montrent une excellente capacité de détection équilibrée et robuste.
+
+Cela confirme que l’enrichissement massif du dataset par des images de terrain (version 4), plus encore que les transformations visuelles, permet d’atteindre un niveau de performance supérieur. La version 3, quant à elle, reste très compétitive et montre qu’une simple transformation colorimétrique peut renforcer la généralisation du modèle.
+
+À l’opposé, les modèles entraînés sur la version 1 du dataset (open source non modifié) sont quasi inopérants, certains n’effectuant aucune détection correcte. Cela souligne les limites d’une base de données trop réduite et peu représentative pour un usage réel en environnement de ruche.
+
+L’analyse statistique vient appuyer ces constats : le score total est fortement corrélé aux métriques clés comme le recall, le IoU, et la précision, ce qui valide sa pertinence comme indicateur de performance globale. En revanche, les hyperparamètres tels que les epochs ou le batch size ont un effet mineur, voire négligeable, sur les résultats finaux.
+
+En résumé, cette étude confirme que le facteur décisif pour la performance des modèles YOLO dans ce contexte est la qualité, la diversité et l’enrichissement des données. Le modèle _train15_ illustre parfaitement cette réalité. Ainsi, pour toute amélioration future, l'effort devrait prioritairement porter sur la collecte, l’annotation, et l’augmentation du dataset, plutôt que sur le raffinement des paramètres d’entraînement.

@@ -52,7 +52,8 @@
               "title": "Abstract"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "5ddfca771b069e1a",
@@ -62,30 +63,27 @@
             "id": "835a938659905fba",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Compte rendus/Juillet/21-07-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Modèles/YOLOv10/Dataset/Données/Extraits/Extrait_1/Out_UP_Extrait_LOW.gif.gif"
               },
-              "icon": "lucide-file",
-              "title": "21-07-2025"
+              "icon": "lucide-image",
+              "title": "Out_UP_Extrait_LOW.gif"
             }
           },
           {
-            "id": "852b4586b57cf98b",
+            "id": "fb067548dc0ed1bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Compte rendus/Juillet/15-07-2025.md",
+                "file": "Compte rendus/Juillet/11-07-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "15-07-2025"
+              "title": "11-07-2025"
             }
           }
         ]
@@ -242,57 +240,57 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
   "active": "835a938659905fba",
   "lastOpenFiles": [
+    "Compte rendus/Juillet/11-07-2025.md",
+    "Modèles/YOLOv10/Dataset/Données/Extraits/Extrait_1/Out_UP_Extrait_LOW.gif.gif",
+    "Modèles/YOLOv10/Dataset/Données/Extraits/Extrait_1/Out_UP_Extrait1_15s.mp4",
+    "Compte rendus/Juillet/22-07-2025.md",
+    "Compte rendus/Juillet/15-07-2025.md",
+    "Compte rendus/Juillet/10-07-2025.md",
+    "Compte rendus/Juillet/16-07-2025.md",
+    "Compte rendus/Juillet/17-07-2025.md",
+    "Modèles/YOLOv10/Dataset/Données/RepérageDesCoordonnées.png",
+    "Compte rendus/Juillet/21-07-2025.md",
+    "Modèles/YOLOv10/Dataset/Données/Extraits/Extrait_1/UP_Extrait1_15s.mp4",
+    "Modèles/YOLOv10/Dataset/Données/Extraits/Extrait_1/UP_Extrait1_15s.avi",
+    "Modèles/YOLOv10/Dataset/Données/Extraits/Extrait_1/Out_UP_Extrait1_15s.gif",
+    "Modèles/YOLOv10/Dataset/Données/Extraits/Extrait_1/Extrait1_15s.mp4",
+    "Modèles/YOLOv10/Dataset/Données/Extraits/Extrait_1",
+    "Modèles/YOLOv10/Dataset/Données/Extraits/Out_UP_Extrait1_15s.gif",
+    "Programmes/YOLOv10/Calculateur/YOLOInferenceVideo.py",
+    "Modèles/YOLOv10/Général/YOLOv10 - Benchmark.md",
+    "Modèles/YOLOv10/Dataset/Données/Extraits/Out_UP_Extrait1_15s.mp4",
+    "Modèles/YOLOv10/Dataset/Données/Extraits/Out_UP_Extrai1_15s.mp4",
+    "Modèles/YOLOv10/Dataset/Données/Extraits/UP_Extrait1_15s.avi",
+    "Modèles/YOLOv10/Général/YOLOv10 - Ablation Study.md",
+    "Modèles/YOLOv10/Dataset/Données/Extraits/Extrait1_15s.mp4",
+    "Modèles/YOLOv10/Général/YOLOv10 - Anchor boxes.md",
     "Rapport de stage/Chapitres/Chapitre 4 - Déroulement du stage et avancées techniques.md",
     "Rapport de stage/Chapitres/Chapitre 3 - Présentation du stage.md",
     "Compte rendus/Juillet/Compte rendus - Juillet.md",
     "Compte rendus/Juin/Compte rendu - Juin.md",
     "Compte rendus/Mai/Compte rendu - Mai.md",
     "Compte rendus/Avril/Compte rendu - Avril.md",
-    "Compte rendus/Juillet/21-07-2025.md",
     "Rapport de stage/Chapitres/Abstract.md",
-    "Rapport de stage/InternshipPresentationA4-EN-JAN24-2.pdf",
     "Rapport de stage/Chapitres/Chapitre 2 - Contexte professionnel.md",
-    "Modèles/YOLOv10/Général/YOLOv10 - Ablation Study.md",
     "Modèles/YOLOv10/Général/Illustrations/ezgif.com-optimize--9-.gif",
     "Modèles/YOLOv10/Général/Illustrations/Pasted image 20250523114330.png",
-    "Compte rendus/Juillet/15-07-2025.md",
-    "Compte rendus/Juillet/16-07-2025.md",
-    "Compte rendus/Juillet/17-07-2025.md",
     "Procédure ApeStick  - EPM.md",
     "Modèles/YOLOv10/YOLOv10.md",
     "YOLOv10/Général/Illustrations/Pasted image 20250718094612.png",
-    "YOLOv10/Général/Illustrations",
-    "YOLOv10/Général",
-    "YOLOv10",
-    "Rapport de stage/Chapitres",
-    "Modèles/YOLOv10/Général/~$Benchmark.ods",
-    "LostInZoom/informed_consent_map_description.pdf",
-    "LostInZoom/informed_consent_map_description.docx",
     "LostInZoom/Expérience Jojo.md",
-    "Compte rendus/Juillet/11-07-2025.md",
     "Compte rendus/Juillet/08-07-2025.md",
     "Programmes/YOLOv10/Calculateur/Results/Result_e50_b16_t2/ResultImage_e50_b16_t2.jpg",
     "Programmes/YOLOv10/Calculateur/Results/Result_e50_b16_t15/ResultImage_e50_b16_t15.jpg",
     "Programmes/YOLOv10/Calculateur/Results/Result_e100_b16_t17/ResultImage_e100_b16_t17.jpg",
-    "Modèles/YOLOv10/Général/lu66243co0.tmp",
     "Programmes/YOLOv10/Calculateur/help.md",
-    "Programmes/YOLOv10/Calculateur/Results/Result_e50_b16_t2/ResultLabels_e50_b16_t2.txt",
-    "Programmes/YOLOv10/Calculateur/Results/Result_e100_b16_t9/ResultImage_e100_b16_t9.jpg",
-    "Programmes/YOLOv10/Calculateur/Results/Result_e100_b16_t12/ResultImage_e100_b16_t12.jpg",
-    "Programmes/YOLOv10/Calculateur/Results/Result_e100_b32_t18/ResultImage_e100_b32_t18.jpg",
-    "Programmes/YOLOv10/Calculateur/Results/Result_e50_b32_t16/ResultImage_e50_b32_t16.jpg",
-    "Modèles/YOLOv10/Général/YOLOv10 - Benchmark.md",
     "Compte rendus/Juillet/09-07-2025.md",
-    "Compte rendus/Juillet/10-07-2025.md",
     "[Programmes/YOLOv10/Calculateur/Debug/Debug.py.md",
-    "Compte rendus/Juillet/07-07-2025.md",
-    "Compte rendus/Juillet/04-07-2025.md",
-    "Compte rendus/Juillet/03-07-2025.md",
     "References/Bibliographie.canvas",
     "IGN-remote/Templates/Sujet - Pipelines.canvas",
     "IGN-remote/References/Bibliographie.canvas",
