@@ -63,12 +63,15 @@
             "id": "835a938659905fba",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Modèles/YOLOv10/Dataset/Données/Extraits/Extrait_1/Out_UP_Extrait_LOW.gif.gif"
+                "file": "Compte rendus/Juillet/22-07-2025.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "Out_UP_Extrait_LOW.gif"
+              "icon": "lucide-file",
+              "title": "22-07-2025"
             }
           },
           {
@@ -240,14 +243,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "835a938659905fba",
   "lastOpenFiles": [
-    "Compte rendus/Juillet/11-07-2025.md",
     "Modèles/YOLOv10/Dataset/Données/Extraits/Extrait_1/Out_UP_Extrait_LOW.gif.gif",
+    "Compte rendus/Juillet/11-07-2025.md",
     "Modèles/YOLOv10/Dataset/Données/Extraits/Extrait_1/Out_UP_Extrait1_15s.mp4",
     "Compte rendus/Juillet/22-07-2025.md",
     "Compte rendus/Juillet/15-07-2025.md",
