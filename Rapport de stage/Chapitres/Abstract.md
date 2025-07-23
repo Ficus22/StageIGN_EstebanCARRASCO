@@ -5,3 +5,5 @@
 Le choix ici paraissait évident pour quiconque avait eu l'occasion d'être à proximité de moi en cours de *machine learning*. Néanmoins, c'est bien l'IGN que j'ai choisi. Pourquoi ? Parce que ce stage, faisait le lien avec mes valeurs, bien plus fortes que n'importe quelle technologie. Effectivement, sa connexion intrinsèque avec les enjeux environnementaux et la préservation des pollinisateurs, résonnait profondément avec mes convictions écologiques. Sans compter le fait que ce stage m’offrait la possibilité de conserver la dualité de mon parcours en m'accordant la possibilité d’aménager mon emploi du temps pour continuer mes cours au conservatoire.
 
 Ce rapport retrace ainsi l’histoire d’un virage inattendu : celui d’un étudiant amoureux des systèmes embarqués, qui, au service de l'écologie a plongé dans ses tourments, avec ses doutes et ses découvertes. Une chose est sûre, cette rencontre aussi brutal soit-elle, aura laissé des traces qui marqueront peut-être le début d'une improbable histoire d'amitié.
+
+Mots-clés : Abeilles, Ecologie, Intelligence artificielle.

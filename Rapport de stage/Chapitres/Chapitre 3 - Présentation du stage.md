@@ -1,39 +1,38 @@
 5-10 pages
 ## <span style="background:#d4b106">Contextualisation</span>
 
-S’il y a bien une chose que je ne soupçonnais pas avant ce stage, c’est à quel point les abeilles étaient… bavardes. Enfin, à leur manière. Car oui, ces petites pollinisatrices sont capables de **communiquer entre elles** de façon étonnamment sophistiquée, en indiquant à leurs congénères **où se trouvent les bonnes ressources** à butiner. Leur outil ? Une sorte de chorégraphie millimétrée qu’on appelle la **danse frétillante**, ou _waggle dance_ pour les anglophones.
+S’il y a bien une chose que je ne soupçonnais pas avant ce stage, c’est à quel point les abeilles étaient… bavardes. Enfin, à leur manière. Car oui, ces petites pollinisatrices sont capables de communiquer entre elles de façon étonnamment sophistiquée, en indiquant à leurs congénères où se trouvent les bonnes ressources à butiner. Leur outil ? Une sorte de chorégraphie millimétrée qu’on appelle la danse frétillante, ou _waggle dance_ pour les anglophones.
 
-Comprendre cette danse, ou mieux encore, savoir l’interpréter automatiquement, ce n’est pas juste une curiosité scientifique. Cela représente une **aide précieuse** pour les biologistes, les écologues, les apiculteurs et plus largement tous ceux qui s’inquiètent — à juste titre — du **déclin des pollinisateurs**. Et c’est justement dans cette optique qu’est née la GeoDanceHive, un dispositif aussi fascinant que complexe.
+Comprendre cette danse, ou mieux encore, savoir l’interpréter automatiquement, ce n’est pas juste une curiosité scientifique. Cela représente une aide précieuse pour les biologistes, les écologues, les apiculteurs et plus largement tous ceux qui s’inquiètent (à juste titre) du déclin des pollinisateurs. Et c’est justement dans cette optique qu’est née la GeoDanceHive, un dispositif aussi fascinant que complexe.
 
-Ce projet est issu d’une **thèse financée par l’OFB** dans le cadre du plan _Écophyto_, portée par **Sylvain Galopin**, sous la direction de **Guillaume Touya (IGN)** et **Freddie-Jeanne Richard (INRAE)**. Ensemble, ils ont imaginé une ruche un peu particulière : **la GeoDanceHive**, une ruche expérimentale pensée pour **observer sans déranger**.
+Ce projet est issu d’une thèse financée par l’OFB dans le cadre du plan _Écophyto_, portée par Sylvain Galopin, sous la direction de Guillaume Touya (IGN) et Freddie-Jeanne Richard (INRAE). Ensemble, ils ont imaginé une ruche un peu particulière : la GeoDanceHive, une ruche expérimentale pensée pour observer sans déranger.
 
-Concrètement, il s’agit d’un assemblage de deux ruches : l’une classique, et l’autre, une sorte de ruche “studio”, totalement vide, où l’on peut **filmer les abeilles** en pleine action sur un cadre, sans nuire à la production de miel. Ce “studio” embarque **des caméras haute définition**, un **éclairage LED UV**, et un **mini-ordinateur** équipé d’un algorithme de vision par ordinateur capable de détecter et d’analyser les fameuses danses.
+Concrètement, il s’agit d’un assemblage de deux ruches : l’une classique, et l’autre, une sorte de ruche “studio”, totalement vide, où l’on peut filmer les abeilles en pleine action sur un cadre, sans nuire à la production de miel. Ce “studio” embarque des caméras haute définition, un éclairage LED UV, et un mini-ordinateur équipé d’un algorithme de vision par ordinateur capable de détecter et d’analyser les fameuses danses.
 
-Tout ça, pour quoi faire ? Pour **mieux comprendre les dynamiques de butinage**, identifier les **fleurs réellement visitées**, et obtenir des données fines sur la manière dont les abeilles interagissent avec leur environnement. En somme, c’est un outil au service du **suivi écologique**, de la **protection des pollinisateurs**, et de **l’amélioration des pratiques agricoles**.
+Tout ça, pour quoi faire ? Pour mieux comprendre les dynamiques de butinage, identifier les fleurs réellement visitées, et obtenir des données fines sur la manière dont les abeilles interagissent avec leur environnement. En somme, c’est un outil au service du suivi écologique, de la protection des pollinisateurs, et de l’amélioration des pratiques agricoles.
 
 Mais pour bien saisir l’utilité de tout ça, il faut plonger un instant dans le monde de la communication chez l’abeille. Car au-delà de leur petite taille, ces insectes ont mis en place un système de transmission d’informations **extrêmement élaboré**.  
 Quand une butineuse trouve une source de nourriture intéressante, elle revient à la ruche et exécute, dans l’obscurité et au contact de ses sœurs, une **danse en forme de 8**, au centre de laquelle elle **frétille en ligne droite**. Ce frétillement encode deux informations clés :
 
 - **la direction** de la ressource (par rapport au soleil),
-    
+
 - **la distance** à parcourir (estimée par la durée du frétillement).
-    
 
 Oui, c’est un **langage symbolique**, chez un animal non humain. Ce n’est pas rien.
 
 Mais ce n’est pas tout : elles utilisent aussi des **phéromones**, des **vibrations**, des **contacts physiques**, voire des **échanges de nourriture** pour se transmettre des signaux d’alerte, d’organisation ou d’identification. C’est une **organisation sociale incroyablement bien rodée**, où tout semble pensé pour assurer la survie collective.
 
-C’est donc dans ce contexte — entre biologie comportementale, écologie, et nouvelles technologies — qu’intervient la GeoDanceHive. Et c’est dans ce cadre, aussi surprenant que stimulant, que j’ai effectué mon stage. Autant dire que, même en tant qu’amoureux des systèmes embarqués et sceptique vis-à-vis de l’IA, je n’ai pas pu rester insensible au **potentiel de cet outil**, pensé pour **comprendre et protéger le vivant**.
+C’est donc dans ce contexte (entre biologie comportementale, écologie, et nouvelles technologies) qu’intervient la GeoDanceHive. Et c’est dans ce cadre, aussi surprenant que stimulant, que j’ai effectué mon stage. Autant dire que, même en tant qu’amoureux des systèmes embarqués et sceptique vis-à-vis de l’IA, je n’ai pas pu rester insensible au potentiel de cet outil, pensé pour comprendre et protéger le vivant.
 
 ## <span style="background:#d4b106">Problématique</span>
-Il suffit d’un simple coup d’œil sur une carte de ruchers pour comprendre une chose évidente : les abeilles ne vivent pas à côté de centres de calcul. En général, elles préfèrent les champs, les lisières, les zones isolées… Là où ni **fibre optique**, ni **prises électriques**, ni **GPU dernier cri** ne sont à portée de main.
+Il suffit d’un simple coup d’œil sur une carte de ruchers pour comprendre une chose évidente : les abeilles ne vivent pas à côté de centres de calcul. En général, elles préfèrent les champs, les lisières, les zones isolées… Là où ni fibre optique, ni prises électriques, ni GPU dernier cri ne sont à portée de main.
 
-Et pourtant, la GeoDanceHive repose sur une analyse vidéo complexe, qui, dans sa version actuelle, nécessite **quatre minutes de traitement pour dix minutes de vidéo**… sur un ordinateur classique. Autant dire que, dans l’état, **aucune chance de l’embarquer au fond d’un champ sans une rallonge de deux kilomètres**.
-Le défi est donc vite posé : **comment faire tenir cette intelligence dans une ruche autonome ?** Comment adapter ou repenser un système aussi gourmand, pour qu’il fonctionne **en temps réel**, **sur un micro-ordinateur**, **au milieu de nulle part**, sans renoncer à la qualité de détection attendue ?
+Et pourtant, la GeoDanceHive repose sur une analyse vidéo complexe, qui, dans sa version actuelle, nécessite quatre minutes de traitement pour dix minutes de vidéo… sur un ordinateur classique. Autant dire que, dans l’état, aucune chance de l’embarquer au fond d’un champ sans une rallonge de deux kilomètres.
+Le défi est donc vite posé : comment faire tenir cette intelligence dans une ruche autonome ? Comment adapter ou repenser un système aussi gourmand, pour qu’il fonctionne en temps réel, sur un micro-ordinateur, au milieu de nulle part, sans renoncer à la qualité de détection attendue ?
 
 
 ## <span style="background:#d4b106">Objectif du stage</span>
-C’est donc dans le sillage direct de cette problématique que s’est dessiné le sujet de mon stage. Face à un algorithme trop lourd pour être embarqué tel quel, il devenait indispensable de réfléchir à des pistes d’allègement, d’optimisation, ou même de réinvention. Mon rôle ? **Explorer ces pistes, les tester, et voir jusqu’où je pouvais aller**.
+C’est donc dans le sillage direct de cette problématique que s’est dessiné le sujet de mon stage. Face à un algorithme trop lourd pour être embarqué tel quel, il devenait indispensable de réfléchir à des pistes d’allègement, d’optimisation, ou même de réinvention. Mon rôle ? Explorer ces pistes, les tester, et voir jusqu’où je pouvais aller.
 
 Ainsi, ma mission lors de ce stage a été de développer un modèle d'apprentissage profond capable de détecter certains comportements spécifiques des abeilles comme les danses frétillantes. Du moins c'est l'intention que j'avais en amorçant mes premiers jours de travail. Les objectifs ont néanmoins été très rapidement réajusté par Guillaume, qui m'a expliqué que patience et longueur de temps étaient de rigueur dans la recherche. Effectivement, il était inenvisageable ou utopique d'espérer aboutir à un modèle fonctionnel en seulement 4 mois. C'est pourquoi l'une de mes premières missions fut d'entamer des recherches préliminaires, après un état d'art du projet, dans le but de dresser un plan de route et des objectifs réalistes. 
 
