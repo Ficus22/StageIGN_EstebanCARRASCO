@@ -3,7 +3,7 @@ from dataclasses import dataclass
 
 from supervision import ColorPalette
 from supervision import Point, VideoInfo, VideoSink, get_video_frames_generator
-from supervision import BoxAnnotator,TraceAnnotator, LineZone, LineZoneAnnotator
+from supervision import BoundingBoxAnnotator, LabelAnnotator, TraceAnnotator, LineZone, LineZoneAnnotator
 from supervision import Detections
 
 from typing import List
@@ -11,81 +11,95 @@ import numpy as np
 from ultralytics import YOLO
 from tqdm import tqdm
 import argparse
+import time
 
 
 INPUT_PATH = "Out_UP_Extrait1_15s.mp4"
 OUTPUT_PATH = "TrackingVideo.mp4"
 
+label_mode = True
+
 
 class ObjectTracking:
     def __init__(self, input_video_path, output_video_path) -> None:
-        self.model = YOLO("best015.pt")
+        self.model = YOLO("best015.pt")  # Ton modèle YOLO entraîné
         self.model.fuse()
-        
-        # dict maping class_id to class_name
-        self.CLASS_NAMES_DICT = self.model.model.names
-        # class_ids of interest - car, motocycle, bus and truck
-        self.CLASS_ID = [2, 3, 5, 7]
 
-        self.LINE_START = Point(50, 1500)
-        self.LINE_END = Point(3840, 1500)
-        
+        # Mapping classe (abeilles)
+        self.CLASS_NAMES_DICT = self.model.model.names
+        self.CLASS_ID = [0]  # à adapter si besoin
+
         self.input_video_path = input_video_path
         self.output_video_path = output_video_path
-        
-        # create BYTETracker instance
-        self.byte_tracker = ByteTrack(track_thresh=0.25, track_buffer=30, match_thresh=0.8, frame_rate=30)
-        # create VideoInfo instance
-        self.video_info = VideoInfo.from_video_path(self.input_video_path)
-        # create frame generator
-        self.generator = get_video_frames_generator(self.input_video_path)
-        # create LineZone instance
-        self.line_zone = LineZone(start=self.LINE_START, end=self.LINE_END)
-        # create instance of BoxAnnotator
-        self.box_annotator = BoxAnnotator(thickness=4, text_thickness=4, text_scale=2)
-        # create instance of TraceAnnotator
-        self.trace_annotator = TraceAnnotator(thickness=4, trace_length=50)
-        # create LineZoneAnnotator instance
-        self.line_zone_annotator = LineZoneAnnotator(thickness=4, text_thickness=4, text_scale=2)
-    
-    def callback(self, frame, index):
-        # model prediction on single frame and conversion to supervision Detections
-        results = self.model(frame, verbose = False)[0]
-        detections = Detections.from_ultralytics(results)
-        detections = detections[np.isin(detections.class_id, self.CLASS_ID)]
-        
-        detections = self.byte_tracker.update_with_detections(detections)
-        
-        labels = [
-        f"#{tracker_id} {self.model.model.names[class_id]} {confidence:0.2f}"
-        for confidence, class_id, tracker_id
-        in zip(detections.confidence, detections.class_id, detections.tracker_id)
-        ]
-        
-        annotated_frame = self.trace_annotator.annotate(
-        scene=frame.copy(),
-        detections=detections
-    )
-        annotated_frame= self.box_annotator.annotate(
-        scene=annotated_frame,
-        detections=detections,
-        labels=labels)
 
-        # update line counter
-        self.line_zone.trigger(detections)
-        # return frame with box and line annotated result
-        return  self.line_zone_annotator.annotate(annotated_frame, line_counter=self.line_zone)
-    
+        # Initialisation ByteTrack with updated parameter names
+        self.byte_tracker = ByteTrack(
+            track_activation_threshold=0.45,
+            lost_track_buffer=300,               # 1s à 60 fps
+            minimum_matching_threshold=0.8,
+            frame_rate=60
+        )
+
+        # Infos vidéo & traceurs
+        self.video_info = VideoInfo.from_video_path(self.input_video_path)
+        self.generator = get_video_frames_generator(self.input_video_path)
+        self.trace_annotator = TraceAnnotator(thickness=4, trace_length=200)
+
+
+        # Replace BoxAnnotator with BoundingBoxAnnotator and LabelAnnotator
+        self.bbox_annotator = BoundingBoxAnnotator(thickness=3)
+        self.label_annotator = LabelAnnotator(text_thickness=1, text_scale=0.3, text_padding=5)
+
+        self.seen_tracker_ids = 0
+
+
+
+
+    def callback(self, frame, index):
+        # Prédiction YOLO sur l’image
+        results = self.model(frame, verbose=False)[0]
+        detections = Detections.from_ultralytics(results)
+
+        # On garde uniquement les classes ciblées
+        detections = detections[np.isin(detections.class_id, self.CLASS_ID)]
+
+        # Suivi avec ByteTrack
+        detections = self.byte_tracker.update_with_detections(detections)
+
+        # Création des labels (ex: "#4")
+        labels = [
+            f"#{tracker_id}"
+            for tracker_id in detections.tracker_id
+        ]
+
+        # Ajout des traces + boîtes + labels
+        frame_traced = self.trace_annotator.annotate(frame.copy(), detections=detections)
+        frame_boxes = self.bbox_annotator.annotate(frame_traced, detections=detections)
+        
+        if label_mode:
+            frame_annotated = self.label_annotator.annotate(frame_boxes, detections=detections, labels=labels)
+        else:
+            frame_annotated = frame_boxes
+
+        for tracker_id in detections.tracker_id:
+            if tracker_id > self.seen_tracker_ids:
+                self.seen_tracker_ids = tracker_id
+            else:
+                continue
+
+        return frame_annotated
+
     def process(self):
         with VideoSink(target_path=self.output_video_path, video_info=self.video_info) as sink:
-            for index, frame in enumerate(
-                get_video_frames_generator(source_path=self.input_video_path)
-            ):
+            for index, frame in enumerate(self.generator):
                 result_frame = self.callback(frame, index)
-                sink.write_frame(frame=result_frame)
-
+                sink.write_frame(result_frame)
 
 
 if __name__ == "__main__":
+    begin = time.time()
     obj = ObjectTracking(INPUT_PATH, OUTPUT_PATH)
     obj.process()
+    end = time.time()
+
+    print(f'Le programme a mis {round(end-begin, 2)} secondes et a détecté {obj.seen_tracker_ids} individus différents.')

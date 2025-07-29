@@ -36,13 +36,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Compte rendus/Juillet/25-07-2025.md",
+                "file": "Compte rendus/Juillet/28-07-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "25-07-2025"
+              "title": "28-07-2025"
             }
           },
           {
@@ -51,13 +51,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Compte rendus/Juillet/28-07-2025.md",
+                "file": "Compte rendus/Juillet/29-07-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "28-07-2025"
+              "title": "29-07-2025"
             }
           }
         ],
@@ -221,20 +221,23 @@
   },
   "active": "12e85b178eebbbeb",
   "lastOpenFiles": [
-    "Modèles/DeepSORT/Général/Results/Extrait_1/DeepSORT7.mp4",
-    "Programmes/ByteTrack/VuPhan/adaptation.py",
-    "Programmes/ByteTrack/VuPhan/original.py",
-    "Programmes/ByteTrack/VuPhan",
-    "Programmes/venv/lib/python3.12/site-packages/torchaudio/backend/__pycache__/sox_io_backend.cpython-312.pyc",
-    "Programmes/venv/lib/python3.12/site-packages/torchaudio/backend/__pycache__/soundfile_backend.cpython-312.pyc",
-    "Programmes/venv/lib/python3.12/site-packages/torchaudio/backend/__pycache__/no_backend.cpython-312.pyc",
-    "Programmes/venv/lib/python3.12/site-packages/torchaudio/backend/__pycache__/common.cpython-312.pyc",
-    "Programmes/venv/lib/python3.12/site-packages/torchaudio/backend/__pycache__/_sox_io_backend.cpython-312.pyc",
-    "Programmes/venv/lib/python3.12/site-packages/torchaudio/backend/__pycache__/_no_backend.cpython-312.pyc",
-    "Programmes/venv/lib/python3.12/site-packages/torchaudio/backend/__pycache__/__init__.cpython-312.pyc",
+    "Modèles/ByteTrack/Result/ByteTrack10.mp4",
+    "Modèles/ByteTrack/Result/ByteTrack8.mp4",
+    "Compte rendus/Juillet/29-07-2025.md",
+    "Modèles/ByteTrack/Result/TrackingVideo.mp4",
+    "Modèles/ByteTrack/Result/ByteTrack9.mp4",
+    "Modèles/ByteTrack/Result/ByteTrack7.mp4",
+    "Modèles/ByteTrack/Result/ByteTrack6.mp4",
+    "Modèles/ByteTrack/Result/ByteTrack5.mp4",
+    "Modèles/ByteTrack/Result/ByteTrack4.mp4",
+    "Modèles/ByteTrack/Result/ByteTrack3.mp4",
+    "Modèles/ByteTrack/Result/ByteTrack2.mp4",
+    "Programmes/ByteTrack/yolo-bytetrack-vehicle-tracking/requirements.txt",
+    "Programmes/ByteTrack/yolo-bytetrack-vehicle-tracking/assets/img/mot20-track.png",
+    "Programmes/ByteTrack/yolo-bytetrack-vehicle-tracking/README.md",
+    "Compte rendus/Juillet/28-07-2025.md",
     "Compte rendus/Juillet/25-07-2025.md",
     "DeepSORT5.mp4.md",
-    "Compte rendus/Juillet/28-07-2025.md",
     "Modèles/DeepSORT/Général/Results/Extrait_1/frames_output1/frame_0014.jpg",
     "Modèles/DeepSORT/Général/Results/Extrait_1/frames_output1/frame_0013.jpg",
     "Modèles/DeepSORT/Général/Results/Extrait_1/frames_output1/frame_0012.jpg",
@@ -244,7 +247,6 @@
     "Modèles/DeepSORT/Général/Results/Extrait_1/frames_output1/frame_0008.jpg",
     "Modèles/DeepSORT/Général/Results/Extrait_1/frames_output1/frame_0007.jpg",
     "Modèles/DeepSORT/Général/Results/Extrait_1/frames_output1/frame_0006.jpg",
-    "Modèles/DeepSORT/Général/Results/Extrait_1/frames_output1/frame_0005.jpg",
     "Programmes/venv/lib/python3.12/site-packages/torchgen/packaged/autograd/README.md",
     "Programmes/venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/extensions/README.md",
     "Programmes/venv/lib/python3.12/site-packages/zmq/backend/cffi/README.md",
@@ -265,8 +267,6 @@
     "Compte rendus/Juillet/24-07-2025.md",
     "Modèles/DeepSORT/Général/DeepSORT - Overview.md",
     "Rapport de stage/Chapitres/Chapitre 4 - Déroulement du stage et avancées techniques.md",
-    "How to use the new coffee machine ?.md",
-    "Compte rendus/Juillet/22-07-2025.md",
     "References/Bibliographie.canvas",
     "IGN-remote/Templates/Sujet - Pipelines.canvas",
     "IGN-remote/References/Bibliographie.canvas",
