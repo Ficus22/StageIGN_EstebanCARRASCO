@@ -1,5 +1,5 @@
 3-5 pages
-## État d'art
+## 1. État d'art
 ### Étude du secteur économique
 L’Institut national de l'information géographique et forestière (IGN) occupe une place centrale dans le secteur de la géomatique en France, avec une mission de service public axée sur l'acquisition, la production, l'utilisation, l'enseignement et la diffusion de données géographiques et forestières souveraines. Son positionnement, ses acteurs, ses produits et services ainsi que la dynamique concurrentielle du secteur témoignent d’une transformation profonde à l’ère du numérique et de l’Anthropocène.
 
@@ -36,7 +36,7 @@ Sur le plan environnemental, l’IGN joue un rôle clé dans la transition écol
 
 L’ouverture de toutes les bases de données de l’IGN depuis 2021, ainsi que le développement de nouveaux référentiels géographiques, illustrent aussi la volonté de l’établissement de favoriser la transparence, la collaboration et l’innovation au service de l’intérêt général. L’ensemble de ces actions témoigne d’une démarche globale et structurée, qui place le développement durable et la responsabilité sociétale au centre de la mission de service public de l’IGN.
 
-## Positionnement de l'IGN au sein de son secteur d'activité
+## 2. Positionnement de l'IGN au sein de son secteur d'activité
 L’IGN occupe une position centrale et différenciée dans le secteur de l’information géographique et forestière en France. Il se distingue par son statut d’opérateur public de référence, placé sous la double tutelle du ministère de l’écologie et du ministère de l’agriculture, ce qui lui confère une légitimité unique auprès des pouvoirs publics et des collectivités territoriales.
 
 ### Caractéristiques différenciantes
