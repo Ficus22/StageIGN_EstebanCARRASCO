@@ -2,7 +2,7 @@
 tags:
   - compte-rendu
 Début période: 2025-07-01
-Fin de période: ""
+Fin de période: 2025-07-31
 ---
 
 ## 30 Juillet 2025 - Mercredi

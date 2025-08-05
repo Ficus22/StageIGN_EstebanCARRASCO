@@ -18,10 +18,13 @@ INPUT_PATH = "UP_Extrait1_15s.mp4"
 OUTPUT_PATH = "TrackingVideo.mp4"
 
 label_mode = False
+color_mode = True
 palette_name = 'hsv'
 
-# 1: default | 2: original | 3: white | 4: black | 5: json
-video_type = 1 
+# 1: default | 2: original | 3: white | 4: black | 5: json | 6: trajectories
+video_type = 3 
+
+MONO_PALETTE = ["#FF0000"]
 
 GPT_PALETTE = [
     "#FF0000", "#036B03", "#FFFF00", "#FF00FF", "#00FFFF",
@@ -67,16 +70,16 @@ class ObjectTracking:
 
         # Initialisation ByteTrack with updated parameter names
         self.byte_tracker = ByteTrack(
-            track_activation_threshold=0.45,
+            track_activation_threshold=0.35,
             lost_track_buffer=300,               # 1s à 60 fps
-            minimum_matching_threshold=0.8,
+            minimum_matching_threshold=0.9,
             frame_rate=60
         )
 
         # Infos vidéo & traceurs
         self.video_info = VideoInfo.from_video_path(self.input_video_path)
         self.generator = get_video_frames_generator(self.input_video_path)
-        self.trace_annotator = TraceAnnotator(thickness=4, trace_length=100)
+        self.trace_annotator = TraceAnnotator(thickness=4, trace_length=1000)
 
 
         # Replace BoxAnnotator with BoundingBoxAnnotator and LabelAnnotator
@@ -121,10 +124,11 @@ class ObjectTracking:
         # Suivi avec ByteTrack
         detections = self.byte_tracker.update_with_detections(detections)
 
-        # Création des labels (ex: "#4")
+        # Création des labels (ex: "#4 - 0.45")
         labels = [
-            f"#{tracker_id}"
-            for tracker_id in detections.tracker_id
+        f"#{tracker_id} {confidence:0.2f}"
+        for confidence, tracker_id
+        in zip(detections.confidence, detections.tracker_id)
         ]
 
        
@@ -155,9 +159,17 @@ class ObjectTracking:
                 self.to_json(detections)
                 bbox_flag = True
 
+            case 6 | 'trajectories':  
+                # ByteTrack trajectories on blank original upgraded video 
+                initial_frame = original_frame
+                bbox_flag = False
+
         # Ajout des traces + boîtes + labels
         #Palette = ColorPalette.from_matplotlib(palette_name, 50)
-        Palette = ColorPalette.from_hex(GPT_PALETTE)
+        if color_mode :
+            Palette = ColorPalette.from_hex(GPT_PALETTE)
+        else:
+            Palette = ColorPalette.from_hex(MONO_PALETTE)
 
         self.trace_annotator.color = self.bbox_annotator.color = self.label_annotator.color = Palette
 
