@@ -8,7 +8,7 @@ Fin de période: 2025-07-31
 ## 30 Juillet 2025 - Mercredi
 
 Ajout de couleurs uniques par identifiant dans les tracés ByteTrack.  
-Correction de la méthode `from_matplotlib` dans la classe `ColorPalette` pour permettre la génération d’une palette de couleurs distinctes.  Génération de plusieurs versions vidéo avec fond modifiable et export JSON.  Je me suis rendu compte que tous les depuis le début des essais, ByteTrack et DeepSORT, je lançais le script sur la vidéo avec les bbox de YOLO plutôt que sur l'originale améliorée. Ce qui change considérablement les résultats. Il est donc nécessaire de re-procéder aux évaluations des hypers-paramètres. . 
+Correction de la méthode `from_matplotlib` dans la classe `ColorPalette` pour permettre la génération d’une palette de couleurs distinctes.  Génération de plusieurs versions vidéo avec fond modifiable et export JSON.  Je me suis rendu compte que tous les depuis le début des essais, ByteTrack et DeepSORT, je lançais le script sur la vidéo avec les bbox de YOLO plutôt que sur l'originale améliorée. Ce qui change considérablement les résultats. Il est donc nécessaire de re-procéder aux évaluations des hypers-paramètres.
 
 
 ## 29 Juillet 2025 - Mardi
@@ -27,7 +27,7 @@ Passage à ByteTrack après des résultats insatisfaisants avec DeepSORT.
 ## 25 Juillet 2025 - Vendredi
 
 Intégration de plusieurs scripts de tracking (yolo_detection_tracking.py, detector.py, ToutEnUn.py).  
-Étude comparative des trackers de différents dépôts. Première implémentation complète de DeepSORT.  Constat d’une inefficacité du suivi, probablement à cause d’un mauvais appariement d’objets.
+Étude comparative des trackers de différents dépôts. Première implémentation complète de DeepSORT.  Constat d’une inefficacité du suivi, probablement à cause d’une mauvaises défition des objets.
 
 
 ## 24 Juillet 2025 - Jeudi
