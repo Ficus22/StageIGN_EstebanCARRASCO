@@ -6,7 +6,7 @@ Last update: 2025-08-05
 > - [ ] Chapitre 4 - Bilan des compétences
 > - [x] Chapitre 3 - Ajouter des détails dans le YOLO
 > - [ ] Remerciements 
-> - [ ] Chapitre 3 - DeepSORT / ByteTrack
+> - [x] Chapitre 3 - DeepSORT / ByteTrack
 
 > [!help] Chapitres à corriger
 > - [ ] Abstract
@@ -19,14 +19,14 @@ Last update: 2025-08-05
 
 > [!example] A faire
 > - [ ] Illustrations
-> - [ ] Fond pdf (svgrepo)
+> - [x] Fond pdf (svgrepo)
 > - [ ] Bibliographie
-> - [ ] Glossaire
-> - [ ] Acronyme
-> - [ ] Back page
+> - [x] Glossaire
+> - [x] Acronyme
+> - [x] Back page
 > - [ ] Annexes
-> - [ ] Headers
-> - [ ] Numéros de pages
+> - [x] Headers
+> - [x] Numéros de pages
 > - [ ] QR code vidéos
 
 

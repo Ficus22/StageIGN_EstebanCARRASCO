@@ -4,56 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "f7bbc1384f2a1798",
+        "id": "f160a75d5e8ad95a",
         "type": "tabs",
         "children": [
           {
-            "id": "040bd0337aac4af3",
+            "id": "14972adef84d4138",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rapport de stage/Chapitres/Chapitre 3 - Déroulement du stage et avancées techniques.md",
+                "file": "Rapport de stage/Rapport - To Do List.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Chapitre 3 - Déroulement du stage et avancées techniques"
+              "title": "Rapport - To Do List"
             }
           },
           {
-            "id": "00aa2860008a9414",
+            "id": "8cb37c2a4dc21457",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Compte rendus/Juillet/Compte rendus - Juillet.md",
+                "file": "Compte rendus/Août/07-08-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Compte rendus - Juillet"
-            }
-          },
-          {
-            "id": "67f40cc0d06a3a61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Compte rendus/Août/06-08-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "06-08-2025"
+              "title": "07-08-2025"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,7 +61,7 @@
                 "autoReveal": true
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorateur de fichiers"
+              "title": "Files"
             }
           },
           {
@@ -110,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207.5
+    "width": 354.5
   },
   "right": {
     "id": "1d6fffb247bd32c2",
@@ -186,21 +171,6 @@
             "id": "7e02ae405e9cdad3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Compte rendus/Juillet/04-07-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "04-07-2025"
-            }
-          },
-          {
-            "id": "60eb298ffaa6a993",
-            "type": "leaf",
-            "state": {
               "type": "git-view",
               "state": {},
               "icon": "git-pull-request",
@@ -208,7 +178,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -216,65 +186,65 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "workspaces:Gérer les espaces de travail": false,
-      "switcher:Ouvrir le sélecteur rapide": false,
-      "graph:Ouvrir la vue graphique": false,
-      "canvas:Créer une nouvelle toile": false,
-      "daily-notes:Ouvrir la note quotidienne": false,
-      "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "67f40cc0d06a3a61",
+  "active": "8cb37c2a4dc21457",
   "lastOpenFiles": [
-    "Compte rendus/Juillet/29-07-2025.md",
-    "Rapport de stage/Chapitres/Chapitre 3 - Déroulement du stage et avancées techniques.md",
-    "Compte rendus/Juillet/28-07-2025.md",
-    "Compte rendus/Juillet/25-07-2025.md",
-    "Compte rendus/Juillet/Compte rendus - Juillet.md",
     "Rapport de stage/Rapport - To Do List.md",
-    "Compte rendus/Juillet/30-07-2025.md",
-    "Compte rendus/Juillet/31-07-2025.md",
+    "Compte rendus/Août/07-08-2025.md",
+    "Compte rendus/Août/06-08-2025.md",
+    "Compte rendus/Août/05-08-2025.md",
+    "Compte rendus/Août/Compte rendu - Août.md",
+    "conflict-files-obsidian-git.md",
     "Compte rendus/Août/01-08-2025.md",
     "Compte rendus/Août/04-08-2025.md",
-    "Compte rendus/Août/05-08-2025.md",
-    "Compte rendus/Août/06-08-2025.md",
-    "Compte rendus/Juin/Compte rendu - Juin.md",
-    "Rapport de stage/Chapitres/Chapitre 2 - Présentation du stage.md",
-    "Modèles/YOLOv10/Général/~$Benchmark.ods",
-    "Compte rendus/Mai/Compte rendu - Mai.md",
-    "Compte rendus/Mai/07-05-2025.md",
-    "Compte rendus/Mai/06-05-2025.md",
-    "Compte rendus/Mai/05-05-2025.md",
-    "Programmes/ByteTrack/VideoConvert.py",
-    "Compte rendus/Août/Compte rendu - Août.md",
-    "Rapport de stage/Chapitres/Remerciements.md",
-    "Rapport de stage/Chapitres/Chapitre 1 - Contexte professionnel.md",
-    "Rapport de stage/InternshipPresentationA4-EN-JAN24-2.pdf",
+    "Compte rendus/Juillet/Compte rendus - Juillet.md",
+    "Modèles/ByteTrack/Result/BestCombinaison/NByteTrack9_t2_h264.mp4",
+    "Modèles/ByteTrack/Result/BestCombinaison/NByteTrack9_t_h264.mp4",
+    "Modèles/ByteTrack/Result/BestCombinaison/NByteTrack9_b_h264.mp4",
+    "Modèles/ByteTrack/Result/BestCombinaison/NByteTrack9_w_h264.mp4",
+    "Modèles/ByteTrack/Result/BestCombinaison/NByteTrack9_o_h264.mp4",
+    "Modèles/ByteTrack/Result/BestCombinaison/NByteTrack9_w.mp4",
+    "Modèles/ByteTrack/Result/BestCombinaison/NByteTrack9_t2.mp4",
+    "Modèles/ByteTrack/Result/BestCombinaison/NByteTrack9_t.mp4",
+    "Modèles/ByteTrack/Result/BestCombinaison/NByteTrack9_o.mp4",
+    "Modèles/ByteTrack/Result/BestCombinaison/NByteTrack9_b.mp4",
+    "Compte rendus/Juillet/30-07-2025.md",
     "Templates/Note quotidienne.md",
-    "Compte rendus/Août/Comptes rendu - Août.md",
-    "Rapport de stage/Chapitres/Abstract.md",
-    "Compte rendus/Juillet/11-07-2025.md",
-    "Articles/agile-giss-5-24-2024.pdf",
-    "Programmes/ByteTrack/VuPhan/original.py",
-    "Programmes/ByteTrack/VuPhan/adaptation.py",
-    "Programmes/ByteTrack/VuPhan",
-    "Programmes/ByteTrack/yolo-bytetrack-vehicle-tracking",
-    "Programmes/ByteTrack/test.py",
-    "Programmes/ByteTrack",
-    "Modèles/DeepSORT/Général/DeepSORT - Overview.md",
-    "YOLOv10/Général/Illustrations/Pasted image 20250718094612.png",
-    "Modèles/YOLOv10/Général/YOLOv10 - Pipelines.canvas",
-    "LostInZoom/map images/osm_12.png",
-    "LostInZoom/map images/dark.png",
-    "LostInZoom/map images/osm_16.png",
-    "LostInZoom/map images/osm_18.png",
-    "LostInZoom/map images/rotated.png",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/Truth/truthImage.jpg",
-    "Programmes/YOLOv10/Calculateur/Results/Result_e50_b32_t8/ResultImage_e50_b32_t8.jpg",
-    "Programmes/YOLOv10/Calculateur/Results/Result_e50_b32_t16/ResultImage_e50_b32_t16.jpg",
-    "Programmes/YOLOv10/Calculateur/Results/Result_e50_b32_t11/ResultImage_e50_b32_t11.jpg",
+    "Rapport de stage/Chapitres/Remerciements.md",
+    "Rapport de stage/Chapitres/Chapitre 3 - Déroulement du stage et avancées techniques.md",
+    "Rapport de stage/Chapitres/Chapitre 2 - Présentation du stage.md",
+    "Rapport de stage/Chapitres/Chapitre 1 - Contexte professionnel.md",
+    "Compte rendus/Juillet/31-07-2025.md",
+    "Compte rendus/Juillet/29-07-2025.md",
+    "NByteTrack9_json.mp4.md",
+    "Modèles/ByteTrack/Result/WrongProcessing/ByteTrack12-f1.png",
+    "Modèles/ByteTrack/Result/WrongProcessing/ByteTrack11-f1.png",
+    "Compte rendus/Juillet/23-07-2025.md",
+    "Compte rendus/Juillet/24-07-2025.md",
+    "Compte rendus/Juillet/25-07-2025.md",
+    "Compte rendus/Juillet/28-07-2025.md",
+    "Compte rendus/Juillet/22-07-2025.md",
+    "Compte rendus/Juillet/21-07-2025.md",
+    "Compte rendus/Juillet/17-07-2025.md",
+    "Compte rendus/Juillet/16-07-2025.md",
+    "Modèles/ByteTrack/Result/ByteTrack12-f1.png",
+    "Modèles/ByteTrack/Result/frame.jpg",
+    "Modèles/ByteTrack/Result/ByteTrack11-f1.png",
+    "Programmes/ByteTrack/yolo-bytetrack-vehicle-tracking/assets/img/mot20-track.png",
+    "Modèles/DeepSORT/Général/Results/Extrait_1/frames_output1/frame_0014.jpg",
+    "Modèles/DeepSORT/Général/Results/Extrait_1/frames_output1/frame_0013.jpg",
+    "Modèles/DeepSORT/Général/Results/Extrait_1/frames_output1/frame_0012.jpg",
+    "Modèles/DeepSORT/Général/Results/Extrait_1/frames_output1/frame_0011.jpg",
+    "References/Bibliographie.canvas",
     "IGN-remote/Templates/Sujet - Pipelines.canvas",
     "IGN-remote/References/Bibliographie.canvas",
     "IGN-remote/Modèles/YOLOv10/Général/YOLOv10 - Pipelines.canvas",
