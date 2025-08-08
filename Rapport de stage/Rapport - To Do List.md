@@ -1,6 +1,6 @@
 ---
 Date: 2025-08-01
-Last update: 2025-08-05
+Last update: 2025-08-08
 ---
 > [!abstract] Chapitre à écrire
 > - [ ] Chapitre 4 - Bilan des compétences
