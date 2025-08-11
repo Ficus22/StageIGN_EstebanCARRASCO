@@ -3,7 +3,7 @@ Date: 2025-08-01
 Last update: 2025-08-08
 ---
 > [!abstract] Chapitre à écrire
-> - [ ] Chapitre 4 - Bilan des compétences
+> - [x] Chapitre 4 - Bilan des compétences
 > - [x] Chapitre 3 - Ajouter des détails dans le YOLO
 > - [ ] Remerciements 
 > - [x] Chapitre 3 - DeepSORT / ByteTrack
