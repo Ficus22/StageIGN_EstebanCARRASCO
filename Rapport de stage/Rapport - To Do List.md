@@ -18,15 +18,15 @@ Last update: 2025-08-08
 > - [ ] Copyright
 
 > [!example] A faire
-> - [ ] Illustrations
+> - [x] Illustrations
 > - [x] Fond pdf (svgrepo)
-> - [ ] Bibliographie
+> - [ ] Bibliographie (Mercredi)
 > - [x] Glossaire
 > - [x] Acronyme
 > - [x] Back page
 > - [ ] Annexes
 > - [x] Headers
 > - [x] Numéros de pages
-> - [ ] QR code vidéos
+> - [ ] QR code vidéos (Mercredi)
 
 
