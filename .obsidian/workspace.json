@@ -4,56 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "f7bbc1384f2a1798",
+        "id": "f160a75d5e8ad95a",
         "type": "tabs",
         "children": [
           {
-            "id": "040bd0337aac4af3",
+            "id": "14972adef84d4138",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rapport de stage/Chapitres/Remerciements.md",
+                "file": "Rapport de stage/Rapport - To Do List.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Remerciements"
+              "title": "Rapport - To Do List"
             }
           },
           {
-            "id": "00aa2860008a9414",
+            "id": "ee059a97ead332ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modèles/YOLOv10/Général/YOLOv10 - Ablation Study.md",
+                "file": "Compte rendus/Août/14-08-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "YOLOv10 - Ablation Study"
-            }
-          },
-          {
-            "id": "edb95331b4c22735",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Compte rendus/Août/12-08-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "12-08-2025"
+              "title": "14-08-2025"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +60,7 @@
                 "autoReveal": true
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorateur de fichiers"
+              "title": "Files"
             }
           },
           {
@@ -110,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 354.5
   },
   "right": {
     "id": "1d6fffb247bd32c2",
@@ -186,21 +170,6 @@
             "id": "7e02ae405e9cdad3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Compte rendus/Juillet/04-07-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "04-07-2025"
-            }
-          },
-          {
-            "id": "60eb298ffaa6a993",
-            "type": "leaf",
-            "state": {
               "type": "git-view",
               "state": {},
               "icon": "git-pull-request",
@@ -208,7 +177,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -216,65 +185,66 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "workspaces:Gérer les espaces de travail": false,
-      "switcher:Ouvrir le sélecteur rapide": false,
-      "graph:Ouvrir la vue graphique": false,
-      "canvas:Créer une nouvelle toile": false,
-      "daily-notes:Ouvrir la note quotidienne": false,
-      "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "00aa2860008a9414",
+  "active": "14972adef84d4138",
   "lastOpenFiles": [
-    "Modèles/YOLOv10/Général/YOLOv10 - Benchmark.md",
-    "Rapport de stage/Rapport - To Do List.md",
+    "Modèles/YOLOv10/Dataset/Données/Extraits/Extrait_1/UP_Extrait1_15s_h264.mp4",
+    "Modèles/YOLOv10/Dataset/Données/Extraits/Extrait_1/Out_UP_Extrait1_15s_h264.mp4",
+    "Modèles/YOLOv10/Dataset/Données/Extraits/Extrait_1/Out_UP_Extrait1_15s-labels.avi",
+    "Rapport de stage/Illustrations/tree-decidious-svgrepo-com.svg",
+    "Rapport de stage/Illustrations/grass-svgrepo-com.svg",
+    "Rapport de stage/Illustrations/flowers-svgrepo-com.svg",
+    "Rapport de stage/Illustrations/flower-hand-drawn-symbol-svgrepo-com.svg",
+    "Rapport de stage/Illustrations/fence-svgrepo-com.svg",
+    "Rapport de stage/Illustrations/bush-svgrepo-com.svg",
+    "Rapport de stage/Illustrations/bush-svgrepo-com(1).svg",
+    "Rapport de stage/Illustrations/birdhouse-svgrepo-com.svg",
+    "Rapport de stage/Illustrations/beehive-svgrepo-com.svg",
+    "Rapport de stage/Illustrations/beehive-svgrepo-com(2).svg",
+    "Rapport de stage/Illustrations/Page de garde.pdf",
+    "Rapport de stage/Illustrations/Page de garde-1.pdf",
+    "Rapport de stage/Illustrations/Design sans titre.pdf",
+    "Rapport de stage/Illustrations/Cover.pdf",
+    "Rapport de stage/Illustrations/Cover-1.pdf",
+    "Rapport de stage/Illustrations/Back.pdf",
+    "Rapport de stage/Illustrations/Back-1.pdf",
+    "Rapport de stage/Illustrations",
+    "Compte rendus/Août/14-08-2025.md",
+    "Compte rendus/Août/13-08-2025.md",
     "Compte rendus/Août/11-08-2025.md",
-    "Compte rendus/Août/12-08-2025.md",
-    "Compte rendus/Août/08-08-2025.md",
-    "Modèles/YOLOv10/Général/~$Benchmark.ods",
-    "Rapport de stage/Chapitres/Remerciements.md",
-    "Rapport de stage/Chapitres/Chapitre 3 - Déroulement du stage et avancées techniques.md",
-    "Compte rendus/Juillet/Compte rendus - Juillet.md",
-    "Rapport de stage/Chapitres/Chapitre 5 - Ouverture.md",
-    "Rapport de stage/Chapitres/Chapitre 4 - Bilans.md",
+    "Rapport de stage/Rapport - To Do List.md",
+    "Compte rendus/Août/05-08-2025.md",
     "Compte rendus/Août/07-08-2025.md",
     "Compte rendus/Août/06-08-2025.md",
-    "Compte rendus/Juillet/29-07-2025.md",
-    "Compte rendus/Juillet/28-07-2025.md",
-    "Compte rendus/Juillet/25-07-2025.md",
-    "Compte rendus/Juillet/30-07-2025.md",
-    "Compte rendus/Juillet/31-07-2025.md",
-    "Compte rendus/Août/01-08-2025.md",
     "Compte rendus/Août/04-08-2025.md",
-    "Compte rendus/Août/05-08-2025.md",
-    "Compte rendus/Juin/Compte rendu - Juin.md",
-    "Rapport de stage/Chapitres/Chapitre 2 - Présentation du stage.md",
-    "Compte rendus/Mai/Compte rendu - Mai.md",
+    "Compte rendus/Août/12-08-2025.md",
+    "Compte rendus/Mai/20-05-2025.md",
+    "Compte rendus/Mai/21-05-2025.md",
+    "Compte rendus/Mai/19-05-2025.md",
+    "Compte rendus/Mai/16-05-2025.md",
+    "Compte rendus/Mai/14-05-2025.md",
+    "Compte rendus/Mai/13-05-2025.md",
+    "Compte rendus/Mai/12-05-2025.md",
     "Compte rendus/Mai/07-05-2025.md",
     "Compte rendus/Mai/06-05-2025.md",
     "Compte rendus/Mai/05-05-2025.md",
-    "Programmes/ByteTrack/VideoConvert.py",
-    "Rapport de stage/InternshipPresentationA4-EN-JAN24-2.pdf",
-    "Articles/agile-giss-5-24-2024.pdf",
-    "Programmes/ByteTrack/VuPhan/original.py",
-    "Programmes/ByteTrack/VuPhan/adaptation.py",
-    "Programmes/ByteTrack/VuPhan",
-    "Programmes/ByteTrack/yolo-bytetrack-vehicle-tracking",
-    "Programmes/ByteTrack/test.py",
-    "Programmes/ByteTrack",
-    "YOLOv10/Général/Illustrations/Pasted image 20250718094612.png",
+    "Rapport de stage/Chapitres/Chapitre 4 - Bilans.md",
+    "Compte rendus/Août/08-08-2025.md",
+    "Rapport de stage/Chapitres/Chapitre 5 - Ouverture.md",
+    "Rapport de stage/Chapitres/Chapitre 1 - Contexte professionnel.md",
     "Modèles/YOLOv10/Général/YOLOv10 - Pipelines.canvas",
-    "LostInZoom/map images/osm_12.png",
-    "LostInZoom/map images/dark.png",
-    "LostInZoom/map images/osm_16.png",
-    "LostInZoom/map images/osm_18.png",
-    "LostInZoom/map images/rotated.png",
-    "Programmes/YOLOv10/Dataset/ImageUpgrader/Truth/truthImage.jpg",
-    "Programmes/YOLOv10/Calculateur/Results/Result_e50_b32_t8/ResultImage_e50_b32_t8.jpg",
-    "Programmes/YOLOv10/Calculateur/Results/Result_e50_b32_t16/ResultImage_e50_b32_t16.jpg",
-    "Programmes/YOLOv10/Calculateur/Results/Result_e50_b32_t11/ResultImage_e50_b32_t11.jpg",
+    "Compte rendus/Août/Compte rendu - Août.md",
+    "conflict-files-obsidian-git.md",
+    "References/Bibliographie.canvas",
     "IGN-remote/Templates/Sujet - Pipelines.canvas",
     "IGN-remote/References/Bibliographie.canvas",
     "IGN-remote/Modèles/YOLOv10/Général/YOLOv10 - Pipelines.canvas",

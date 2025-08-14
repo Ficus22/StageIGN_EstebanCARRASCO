@@ -1,7 +1,7 @@
 import subprocess
 import os
 
-INPUT_VIDEO = "Result/BestCombinaison/NByteTrack9_t2.mp4"
+INPUT_VIDEO = "UP_Extrait1_15s.mp4"
 
 # Le fichier converti portera le suffixe "_h264"
 OUTPUT_VIDEO = INPUT_VIDEO.replace(".mp4", "_h264.mp4")

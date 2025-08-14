@@ -1,7 +1,8 @@
 ---
 Date: 2025-08-01
-Last update: 2025-08-08
+Last update: 2025-08-14
 ---
+
 > [!abstract] Chapitre à écrire
 > - [x] Chapitre 4 - Bilan des compétences
 > - [x] Chapitre 3 - Ajouter des détails dans le YOLO
@@ -20,11 +21,11 @@ Last update: 2025-08-08
 > [!example] A faire
 > - [x] Illustrations
 > - [x] Fond pdf (svgrepo)
-> - [ ] Bibliographie (Mercredi)
+> - [x] Bibliographie (Mercredi)
 > - [x] Glossaire
 > - [x] Acronyme
 > - [x] Back page
-> - [ ] Annexes
+> - [x] Annexes
 > - [x] Headers
 > - [x] Numéros de pages
 > - [ ] QR code vidéos (Mercredi)
