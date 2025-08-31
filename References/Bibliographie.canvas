@@ -1,557 +1,506 @@
 {
-  "edges": [
-  ],
-  "metadata": {
-    "frontmatter": {
-    },
-    "version": "1.0-1.0"
-  },
-  "nodes": [
-    {
-      "color": "5",
-      "height": 3360,
-      "id": "7428517083b021c0",
-      "label": "YOLOv10",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 4080,
-      "x": -640,
-      "y": -1440
-    },
-    {
-      "color": "4",
-      "height": 2414,
-      "id": "3b67862bc3b69e7e",
-      "label": "DeepLabCut",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 2080,
-      "x": 3600,
-      "y": -1440
-    },
-    {
-      "height": 1641,
-      "id": "21dab53ea6c6b7c4",
-      "label": "Dataset",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 2180,
-      "x": 960,
-      "y": -1119
-    },
-    {
-      "color": "3",
-      "height": 1120,
-      "id": "aa720879cff14bd4",
-      "label": "Object tracking",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 2000,
-      "x": 3920,
-      "y": 1520
-    },
-    {
-      "height": 1386,
-      "id": "f9d9c9f8dc26980b",
-      "label": "Basics",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 1080,
-      "x": -400,
-      "y": -992
-    },
-    {
-      "height": 1031,
-      "id": "fd34c9be9952815b",
-      "label": "Training",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 1360,
-      "x": -400,
-      "y": 649
-    },
-    {
-      "color": "1",
-      "height": 1020,
-      "id": "c187b1c5d311f78f",
-      "label": "Etat d'art",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 1240,
-      "x": 5920,
-      "y": -2880
-    },
-    {
-      "height": 1318,
-      "id": "7906c7a9f0f4e025",
-      "label": "Dataset Creation",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 920,
-      "x": 1260,
-      "y": -939
-    },
-    {
-      "color": "6",
-      "height": 880,
-      "id": "ebd4c573a6de789a",
-      "label": "YOWOv2",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 1080,
-      "x": 2600,
-      "y": 2640
-    },
-    {
-      "color": "2",
-      "height": 680,
-      "id": "b99a4e09a79b89d5",
-      "label": "DeepWDT",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 1220,
-      "x": 680,
-      "y": 2840
-    },
-    {
-      "height": 880,
-      "id": "d0ea662e4fbc6f46",
-      "label": "Tutorial",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 920,
-      "x": 4640,
-      "y": -1200
-    },
-    {
-      "height": 1000,
-      "id": "a3c07c483b584f2a",
-      "label": "Général",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 800,
-      "x": 3740,
-      "y": -1200
-    },
-    {
-      "height": 1331,
-      "id": "0b7691b3bc00a2cf",
-      "label": "Dataset format",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 440,
-      "x": 2380,
-      "y": -939
-    },
-    {
-      "height": 740,
-      "id": "42289c4757e5068a",
-      "label": "Deep Sort",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 780,
-      "x": 4080,
-      "y": 1700
-    },
-    {
-      "height": 720,
-      "id": "a5738aa2ab13e5db",
-      "label": "BYTETrack",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 740,
-      "x": 5000,
-      "y": 1700
-    },
-    {
-      "color": "#0400ff",
-      "height": 580,
-      "id": "3b3fb7f594de63df",
-      "label": "Python manipulations",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 740,
-      "x": 1260,
-      "y": -2900
-    },
-    {
-      "height": 540,
-      "id": "af776f9bf6c23efd",
-      "label": "Etat d'art",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 610,
-      "x": 3740,
-      "y": -60
-    },
-    {
-      "height": 400,
-      "id": "cefee198f638b8ce",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://community.ultralytics.com/",
-      "width": 400,
-      "x": -305,
-      "y": -917
-    },
-    {
-      "height": 400,
-      "id": "6c761f9fcc645709",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://community.ultralytics.com/t/yolov10-bounding-box-format/316",
-      "width": 400,
-      "x": 140,
-      "y": -917
-    },
-    {
-      "height": 400,
-      "id": "6e3e782e4dcd61f5",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://github.com/THU-MIG/yolov10",
-      "width": 400,
-      "x": -305,
-      "y": -468
-    },
-    {
-      "height": 400,
-      "id": "d1e2523795c81169",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://docs.ultralytics.com/fr/models/yolov10/",
-      "width": 400,
-      "x": 140,
-      "y": -468
-    },
-    {
-      "height": 460,
-      "id": "aaf1c42b2e82e7e7",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://www.mackenziemathislab.org/deeplabcut",
-      "width": 760,
-      "x": 3760,
-      "y": -680
-    },
-    {
-      "height": 400,
-      "id": "2726d6335fdaa1ac",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://medium.com/@haydenfaulkner/extracting-frames-fast-from-a-video-using-opencv-and-python-73b9b7dc9661",
-      "width": 400,
-      "x": 1400,
-      "y": -2800
-    },
-    {
-      "file": "IGN-remote/References/bioRxiv-DLC_AntennaExemple.pdf",
-      "height": 400,
-      "id": "a5d80689d799e47f",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": 3840,
-      "y": 0
-    },
-    {
-      "height": 400,
-      "id": "3241ca28f40265af",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://github.com/DeepLabCut/DeepLabCut",
-      "width": 420,
-      "x": 3930,
-      "y": -1180
-    },
-    {
-      "height": 400,
-      "id": "93eb94716f538bc0",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://deeplabcut.github.io/DeepLabCut/README.html",
-      "width": 400,
-      "x": 5100,
-      "y": -740
-    },
-    {
-      "height": 400,
-      "id": "cf5dad8828265eb2",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html",
-      "width": 400,
-      "x": 4660,
-      "y": -740
-    },
-    {
-      "height": 360,
-      "id": "670804683ec52937",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://www.youtube.com/watch?v=J4gv31MU_PI",
-      "width": 640,
-      "x": 4780,
-      "y": -1160
-    },
-    {
-      "height": 400,
-      "id": "8776a75c19420d80",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://medium.com/scalian/deep-sort-ou-comment-suivre-des-objets-dans-une-vid%C3%A9o-54ce98b59206",
-      "width": 400,
-      "x": 4280,
-      "y": 1880
-    },
-    {
-      "height": 400,
-      "id": "7222042eb71d64da",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://www.datature.io/blog/introduction-to-bytetrack-multi-object-tracking-by-associating-every-detection-box",
-      "width": 400,
-      "x": 5200,
-      "y": 1880
-    },
-    {
-      "height": 400,
-      "id": "d8be5bc57e721198",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5728493/#pone.0188626.ref032",
-      "width": 400,
-      "x": 6140,
-      "y": -2780
-    },
-    {
-      "height": 400,
-      "id": "1993f8800768e1f3",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://github.com/yjh0410/YOWOv2/tree/master",
-      "width": 400,
-      "x": 2920,
-      "y": 2880
-    },
-    {
-      "height": 360,
-      "id": "c7294c72a077320a",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://www.youtube.com/watch?v=Bzv58L6xYGc",
-      "width": 640,
-      "x": 1400,
-      "y": -919
-    },
-    {
-      "height": 400,
-      "id": "a66334335e01f085",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://www.digitalocean.com/community/tutorials/train-yolov5-custom-data",
-      "width": 400,
-      "x": 2400,
-      "y": -919
-    },
-    {
-      "height": 400,
-      "id": "f2aa22cea91164a6",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://docs.ultralytics.com/fr/yolov5/tutorials/train_custom_data/#11-create-datasetyaml",
-      "width": 400,
-      "x": 2400,
-      "y": -480
-    },
-    {
-      "height": 400,
-      "id": "a8f881861cd874f0",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://roboflow.com/formats/yolov10-pytorch-txt",
-      "width": 400,
-      "x": 2400,
-      "y": -29
-    },
-    {
-      "height": 400,
-      "id": "3c630bd6a47c9919",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://medium.com/@telega.slawomir.ai/simple-yolo-custom-dataset-automatic-generation-295f5c9ccfb2",
-      "width": 400,
-      "x": 1272,
-      "y": -471
-    },
-    {
-      "height": 360,
-      "id": "afcc4d4d9b229726",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://www.youtube.com/watch?v=pTJT8kKi9SM",
-      "width": 640,
-      "x": 1400,
-      "y": -2
-    },
-    {
-      "height": 400,
-      "id": "715e85cba8a60788",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://medium.com/@sudiplaudari/yolov10-a-step-by-step-guide-to-object-detection-on-a-custom-dataset-9f3e3e56921c",
-      "width": 400,
-      "x": 1752,
-      "y": -471
-    },
-    {
-      "file": "IGN-remote/References/bioRxiv-DeepWDT.pdf",
-      "height": 400,
-      "id": "1ff8e104a7d85952",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": 6140,
-      "y": -2340
-    },
-    {
-      "file": "IGN-remote/References/Detection_and_tracking_of_honeybees_using_YOLO_and_StrongSORT.pdf",
-      "height": 400,
-      "id": "b17b258e05845ee3",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": 6640,
-      "y": -2340
-    },
-    {
-      "height": 400,
-      "id": "9eef477745b06ccb",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://refubium.fu-berlin.de/bitstream/handle/fub188/19039/2007_11.pdf;jsessionid=5353406095B87B8E0DD49574BD2739A8?sequence=1",
-      "width": 400,
-      "x": 6640,
-      "y": -2780
-    },
-    {
-      "height": 360,
-      "id": "72ec4f9bc6bcbb70",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://www.youtube.com/watch?v=v_bFzG-jKDk",
-      "width": 640,
-      "x": -200,
-      "y": -28
-    },
-    {
-      "height": 400,
-      "id": "405cdb091c3fa4a1",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://www.ikomia.ai/blog/train-yolov10-model-custom-dataset",
-      "width": 400,
-      "x": -257,
-      "y": 740
-    },
-    {
-      "height": 400,
-      "id": "74e41f693a487724",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://blog.roboflow.com/yolov10-how-to-train/",
-      "width": 400,
-      "x": 183,
-      "y": 740
-    },
-    {
-      "height": 360,
-      "id": "7f6eaeb90bc6da87",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://www.youtube.com/watch?v=3zp5LQr1VQM",
-      "width": 640,
-      "x": -257,
-      "y": 1240
-    },
-    {
-      "height": 400,
-      "id": "0b724473824bae56",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://github.com/roboflow/notebooks/blob/main/notebooks/train-yolov10-object-detection-on-custom-dataset.ipynb",
-      "width": 400,
-      "x": 443,
-      "y": 1200
-    },
-    {
-      "height": 400,
-      "id": "fca21ce066b02ce2",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://github.com/UTokyo-FieldPhenomics-Lab/DeepWDT/tree/main",
-      "width": 400,
-      "x": 1380,
-      "y": 2960
-    },
-    {
-      "file": "IGN-remote/References/bioRxiv-DeepWDT.pdf",
-      "height": 400,
-      "id": "6d81c4f5608ea443",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": 800,
-      "y": 2960
-    }
-  ]
+	"edges":[],
+	"metadata":{
+		"frontmatter":{},
+		"version":"1.0-1.0"
+	},
+	"nodes":[
+		{
+			"id":"7428517083b021c0",
+			"styleAttributes":{},
+			"type":"group",
+			"x":-640,
+			"y":-1440,
+			"width":4080,
+			"height":3360,
+			"color":"5",
+			"label":"YOLOv10"
+		},
+		{
+			"id":"3b67862bc3b69e7e",
+			"styleAttributes":{},
+			"type":"group",
+			"x":3600,
+			"y":-1440,
+			"width":2080,
+			"height":2414,
+			"color":"4",
+			"label":"DeepLabCut"
+		},
+		{
+			"id":"21dab53ea6c6b7c4",
+			"styleAttributes":{},
+			"type":"group",
+			"x":960,
+			"y":-1119,
+			"width":2180,
+			"height":1641,
+			"label":"Dataset"
+		},
+		{
+			"id":"aa720879cff14bd4",
+			"styleAttributes":{},
+			"type":"group",
+			"x":3920,
+			"y":1520,
+			"width":2000,
+			"height":1120,
+			"color":"3",
+			"label":"Object tracking"
+		},
+		{
+			"id":"f9d9c9f8dc26980b",
+			"styleAttributes":{},
+			"type":"group",
+			"x":-400,
+			"y":-992,
+			"width":1080,
+			"height":1386,
+			"label":"Basics"
+		},
+		{
+			"id":"fd34c9be9952815b",
+			"styleAttributes":{},
+			"type":"group",
+			"x":-400,
+			"y":649,
+			"width":1360,
+			"height":1031,
+			"label":"Training"
+		},
+		{
+			"id":"c187b1c5d311f78f",
+			"styleAttributes":{},
+			"type":"group",
+			"x":5920,
+			"y":-2880,
+			"width":1240,
+			"height":1020,
+			"color":"1",
+			"label":"Etat d'art"
+		},
+		{
+			"id":"7906c7a9f0f4e025",
+			"styleAttributes":{},
+			"type":"group",
+			"x":1260,
+			"y":-939,
+			"width":920,
+			"height":1318,
+			"label":"Dataset Creation"
+		},
+		{
+			"id":"ebd4c573a6de789a",
+			"styleAttributes":{},
+			"type":"group",
+			"x":2600,
+			"y":2640,
+			"width":1080,
+			"height":880,
+			"color":"6",
+			"label":"YOWOv2"
+		},
+		{
+			"id":"b99a4e09a79b89d5",
+			"styleAttributes":{},
+			"type":"group",
+			"x":680,
+			"y":2840,
+			"width":1220,
+			"height":680,
+			"color":"2",
+			"label":"DeepWDT"
+		},
+		{
+			"id":"d0ea662e4fbc6f46",
+			"styleAttributes":{},
+			"type":"group",
+			"x":4640,
+			"y":-1200,
+			"width":920,
+			"height":880,
+			"label":"Tutorial"
+		},
+		{
+			"id":"a3c07c483b584f2a",
+			"styleAttributes":{},
+			"type":"group",
+			"x":3740,
+			"y":-1200,
+			"width":800,
+			"height":1000,
+			"label":"Général"
+		},
+		{
+			"id":"0b7691b3bc00a2cf",
+			"styleAttributes":{},
+			"type":"group",
+			"x":2380,
+			"y":-939,
+			"width":440,
+			"height":1331,
+			"label":"Dataset format"
+		},
+		{
+			"id":"42289c4757e5068a",
+			"styleAttributes":{},
+			"type":"group",
+			"x":4080,
+			"y":1700,
+			"width":780,
+			"height":740,
+			"label":"Deep Sort"
+		},
+		{
+			"id":"a5738aa2ab13e5db",
+			"styleAttributes":{},
+			"type":"group",
+			"x":5000,
+			"y":1700,
+			"width":740,
+			"height":720,
+			"label":"BYTETrack"
+		},
+		{
+			"id":"3b3fb7f594de63df",
+			"styleAttributes":{},
+			"type":"group",
+			"x":1260,
+			"y":-2900,
+			"width":740,
+			"height":580,
+			"color":"#0400ff",
+			"label":"Python manipulations"
+		},
+		{
+			"id":"af776f9bf6c23efd",
+			"styleAttributes":{},
+			"type":"group",
+			"x":3740,
+			"y":-60,
+			"width":610,
+			"height":540,
+			"label":"Etat d'art"
+		},
+		{
+			"id":"cefee198f638b8ce",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://community.ultralytics.com/",
+			"x":-305,
+			"y":-917,
+			"width":400,
+			"height":400
+		},
+		{
+			"id":"6c761f9fcc645709",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://community.ultralytics.com/t/yolov10-bounding-box-format/316",
+			"x":140,
+			"y":-917,
+			"width":400,
+			"height":400
+		},
+		{
+			"id":"6e3e782e4dcd61f5",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://github.com/THU-MIG/yolov10",
+			"x":-305,
+			"y":-468,
+			"width":400,
+			"height":400
+		},
+		{
+			"id":"d1e2523795c81169",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://docs.ultralytics.com/fr/models/yolov10/",
+			"x":140,
+			"y":-468,
+			"width":400,
+			"height":400
+		},
+		{
+			"id":"aaf1c42b2e82e7e7",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://www.mackenziemathislab.org/deeplabcut",
+			"x":3760,
+			"y":-680,
+			"width":760,
+			"height":460
+		},
+		{
+			"id":"2726d6335fdaa1ac",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://medium.com/@haydenfaulkner/extracting-frames-fast-from-a-video-using-opencv-and-python-73b9b7dc9661",
+			"x":1400,
+			"y":-2800,
+			"width":400,
+			"height":400
+		},
+		{
+			"file":"IGN-remote/References/bioRxiv-DLC_AntennaExemple.pdf",
+			"id":"a5d80689d799e47f",
+			"styleAttributes":{},
+			"type":"file",
+			"x":3840,
+			"y":0,
+			"width":400,
+			"height":400
+		},
+		{
+			"id":"3241ca28f40265af",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://github.com/DeepLabCut/DeepLabCut",
+			"x":3930,
+			"y":-1180,
+			"width":420,
+			"height":400
+		},
+		{
+			"id":"cf5dad8828265eb2",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html",
+			"x":4660,
+			"y":-740,
+			"width":400,
+			"height":400
+		},
+		{
+			"id":"670804683ec52937",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://www.youtube.com/watch?v=J4gv31MU_PI",
+			"x":4780,
+			"y":-1160,
+			"width":640,
+			"height":360
+		},
+		{
+			"id":"93eb94716f538bc0",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://deeplabcut.github.io/DeepLabCut/README.html",
+			"x":5100,
+			"y":-740,
+			"width":400,
+			"height":400
+		},
+		{
+			"id":"8776a75c19420d80",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://medium.com/scalian/deep-sort-ou-comment-suivre-des-objets-dans-une-vid%C3%A9o-54ce98b59206",
+			"x":4280,
+			"y":1880,
+			"width":400,
+			"height":400
+		},
+		{
+			"id":"7222042eb71d64da",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://www.datature.io/blog/introduction-to-bytetrack-multi-object-tracking-by-associating-every-detection-box",
+			"x":5200,
+			"y":1880,
+			"width":400,
+			"height":400
+		},
+		{
+			"id":"d8be5bc57e721198",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC5728493/#pone.0188626.ref032",
+			"x":6140,
+			"y":-2780,
+			"width":400,
+			"height":400
+		},
+		{
+			"id":"1993f8800768e1f3",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://github.com/yjh0410/YOWOv2/tree/master",
+			"x":2920,
+			"y":2880,
+			"width":400,
+			"height":400
+		},
+		{
+			"id":"c7294c72a077320a",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://www.youtube.com/watch?v=Bzv58L6xYGc",
+			"x":1400,
+			"y":-919,
+			"width":640,
+			"height":360
+		},
+		{
+			"id":"a66334335e01f085",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://www.digitalocean.com/community/tutorials/train-yolov5-custom-data",
+			"x":2400,
+			"y":-919,
+			"width":400,
+			"height":400
+		},
+		{
+			"id":"f2aa22cea91164a6",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://docs.ultralytics.com/fr/yolov5/tutorials/train_custom_data/#11-create-datasetyaml",
+			"x":2400,
+			"y":-480,
+			"width":400,
+			"height":400
+		},
+		{
+			"id":"a8f881861cd874f0",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://roboflow.com/formats/yolov10-pytorch-txt",
+			"x":2400,
+			"y":-29,
+			"width":400,
+			"height":400
+		},
+		{
+			"id":"3c630bd6a47c9919",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://medium.com/@telega.slawomir.ai/simple-yolo-custom-dataset-automatic-generation-295f5c9ccfb2",
+			"x":1272,
+			"y":-471,
+			"width":400,
+			"height":400
+		},
+		{
+			"id":"afcc4d4d9b229726",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://www.youtube.com/watch?v=pTJT8kKi9SM",
+			"x":1400,
+			"y":-2,
+			"width":640,
+			"height":360
+		},
+		{
+			"id":"715e85cba8a60788",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://medium.com/@sudiplaudari/yolov10-a-step-by-step-guide-to-object-detection-on-a-custom-dataset-9f3e3e56921c",
+			"x":1752,
+			"y":-471,
+			"width":400,
+			"height":400
+		},
+		{
+			"file":"IGN-remote/References/bioRxiv-DeepWDT.pdf",
+			"id":"1ff8e104a7d85952",
+			"styleAttributes":{},
+			"type":"file",
+			"x":6140,
+			"y":-2340,
+			"width":400,
+			"height":400
+		},
+		{
+			"file":"IGN-remote/References/Detection_and_tracking_of_honeybees_using_YOLO_and_StrongSORT.pdf",
+			"id":"b17b258e05845ee3",
+			"styleAttributes":{},
+			"type":"file",
+			"x":6640,
+			"y":-2340,
+			"width":400,
+			"height":400
+		},
+		{
+			"id":"9eef477745b06ccb",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://refubium.fu-berlin.de/bitstream/handle/fub188/19039/2007_11.pdf;jsessionid=5353406095B87B8E0DD49574BD2739A8?sequence=1",
+			"x":6640,
+			"y":-2780,
+			"width":400,
+			"height":400
+		},
+		{
+			"id":"72ec4f9bc6bcbb70",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://www.youtube.com/watch?v=v_bFzG-jKDk",
+			"x":-200,
+			"y":-28,
+			"width":640,
+			"height":360
+		},
+		{
+			"id":"405cdb091c3fa4a1",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://www.ikomia.ai/blog/train-yolov10-model-custom-dataset",
+			"x":-257,
+			"y":740,
+			"width":400,
+			"height":400
+		},
+		{
+			"id":"74e41f693a487724",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://blog.roboflow.com/yolov10-how-to-train/",
+			"x":183,
+			"y":740,
+			"width":400,
+			"height":400
+		},
+		{
+			"id":"7f6eaeb90bc6da87",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://www.youtube.com/watch?v=3zp5LQr1VQM",
+			"x":-257,
+			"y":1240,
+			"width":640,
+			"height":360
+		},
+		{
+			"id":"0b724473824bae56",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://github.com/roboflow/notebooks/blob/main/notebooks/train-yolov10-object-detection-on-custom-dataset.ipynb",
+			"x":443,
+			"y":1200,
+			"width":400,
+			"height":400
+		},
+		{
+			"id":"fca21ce066b02ce2",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://github.com/UTokyo-FieldPhenomics-Lab/DeepWDT/tree/main",
+			"x":1380,
+			"y":2960,
+			"width":400,
+			"height":400
+		},
+		{
+			"file":"IGN-remote/References/bioRxiv-DeepWDT.pdf",
+			"id":"6d81c4f5608ea443",
+			"styleAttributes":{},
+			"type":"file",
+			"x":800,
+			"y":2960,
+			"width":400,
+			"height":400
+		}
+	]
 }
