@@ -185,6 +185,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "workspaces:Gérer les espaces de travail": false,
       "switcher:Ouvrir le sélecteur rapide": false,
       "graph:Ouvrir la vue graphique": false,
@@ -195,8 +196,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "edb95331b4c22735",
+  "active": "60eb298ffaa6a993",
   "lastOpenFiles": [
+    "RapportIGN-vfVideo.pdf",
+    "RapportIGN-vfESILV.pdf",
+    "LICENSE",
+    "Compte rendus/Août/04-09-2025.md",
     "Compte rendus/Mai/28-05-2025.md",
     "Compte rendus/Mai/27-05-2025.md",
     "Compte rendus/Mai/26-05-2025.md",
@@ -221,8 +226,6 @@
     "Compte rendus/Juin/06-06-2025.md",
     "Compte rendus/Juin/04-06-2025.md",
     "Compte rendus/Juin/03-06-2025.md",
-    "Compte rendus/Juin/02-06-2025.md",
-    "Compte rendus/Juillet/Compte rendus - Juillet.md",
     "References/Bibliographie.canvas",
     "References/bioRxiv-DeepWDT.pdf",
     "Rapport de stage/Illustrations/tree-decidious-svgrepo-com.svg",
@@ -242,8 +245,6 @@
     "Rapport de stage/Illustrations/Cover-1.pdf",
     "Rapport de stage/Illustrations/Back.pdf",
     "Rapport de stage/Illustrations/Back-1.pdf",
-    "Rapport de stage/Illustrations",
-    "Programmes/ByteTrack/VuPhan/AllTraj.py",
     "Modèles/YOLOv10/Général/YOLOv10 - Pipelines.canvas",
     "IGN-remote/Templates/Sujet - Pipelines.canvas",
     "IGN-remote/References/Bibliographie.canvas",
